@@ -6,6 +6,9 @@
 <br></br>
 
 # 📱 ASPRA Movil 📱
+![ASPRA](https://github.com/JDGA1997/ASPRA-Movil/assets/105946879/91b400a8-cf66-4fa1-907b-a4282e9a4e3c)
+
+
 ## ASPRA Móvil es una aplicación para Android que permite reportar animales perdidos y abandonados para que sean rescatados. Además de que a través de la misma se puede hacer un seguimiento de los animales que han sido rescatados y publicar fotos o videos de ellos. También hay un sistema de login para que los usuarios puedan adoptar animales.
 
 ### 😺💝🐶 El proyecto se enfoca principalmente en la adopción de animales. 🐶💝😺
@@ -32,3 +35,28 @@
 - [Moreno, Alejandro ](https://github.com/MoCAlejandro)
 
 - [Reyes, Melanie](https://github.com/MelanieR24)
+
+<br>
+
+## Construido 💻🖥️
+
+### Front-End
+- HTML5
+- CSS3
+- Javascript
+- Bootstrap
+- Angular
+
+### Back-End
+- Python para arquitectura MVC y POO.
+- Django
+- Typescript
+
+### Base de Datos
+- MySQL
+
+<br>
+
+## Proximamente 🏗️🚧
+
+- Aplicacion movil para Android escrita en el lenguaje de programacion "Java"
