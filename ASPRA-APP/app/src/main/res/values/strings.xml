@@ -9,4 +9,7 @@
     <string name="login_inicio">Ingresar</string>
     <string name="registrarse_confirmar">Confirmar datos</string>
     <string name="reporte_enviar">Enviar reporte</string>
+    <string name="Direccion">Direccion</string>
+    <string name="Motivo">Motivo</string>
+    <string name="Descripcion">Descripcion</string>
 </resources>
