@@ -1,0 +1,3 @@
+com.example.aspra_app.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
