@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button_home_contacto
+id button_home_login
+id button_home_reportar
+id button_login_registrarse
+id button_login_reportar
+id button_registrarse_confirmar
+id button_reporte_enviar
+layout activity_contacto
+layout activity_login
+layout activity_main
+layout activity_registrarse
+layout activity_reportar
+layout activity_reporte_exitoso
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string contacto_name
+string home_name
+string login_inicio
+string login_name
+string registrarse_confirmar
+string registro_name
+string reporteOK_name
+string reporte_enviar
+string reporte_name
+style Base.Theme.ASPRAAPP
+style Theme.ASPRAAPP
+xml backup_rules
+xml data_extraction_rules
