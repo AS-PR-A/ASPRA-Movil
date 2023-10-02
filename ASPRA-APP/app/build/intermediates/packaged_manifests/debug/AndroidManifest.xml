@@ -21,15 +21,15 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_logo_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_logo_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.ASPRAAPP" >
         <activity
             android:name="com.example.aspra_app.ReporteExitosoActivity"
-            android:label="@string/reporteOK_name"
+            android:label="@string/reporte_name"
             android:parentActivityName="com.example.aspra_app.ReportarActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -37,7 +37,7 @@
         </activity>
         <activity
             android:name="com.example.aspra_app.ReportarActivity"
-            android:label="@string/reporte_name"
+            android:label="@string/home_name"
             android:parentActivityName="com.example.aspra_app.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -45,7 +45,7 @@
         </activity>
         <activity
             android:name="com.example.aspra_app.RegistrarseActivity"
-            android:label="@string/registro_name"
+            android:label="@string/login_name"
             android:parentActivityName="com.example.aspra_app.LoginActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -53,7 +53,7 @@
         </activity>
         <activity
             android:name="com.example.aspra_app.LoginActivity"
-            android:label="@string/login_name"
+            android:label="@string/home_name"
             android:parentActivityName="com.example.aspra_app.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -61,7 +61,7 @@
         </activity>
         <activity
             android:name="com.example.aspra_app.ContactoActivity"
-            android:label="@string/contacto_name"
+            android:label="@string/home_name"
             android:parentActivityName="com.example.aspra_app.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -70,7 +70,8 @@
         <activity
             android:name="com.example.aspra_app.MainActivity"
             android:exported="true"
-            android:label="@string/home_name" >
+            android:label=""
+            android:theme="@style/Theme.Transparent" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

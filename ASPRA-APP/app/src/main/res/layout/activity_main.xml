@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/material_dynamic_primary20"
-    android:backgroundTint="@android:color/system_accent1_900"
-    android:backgroundTintMode="add"
+    android:background="@color/primary"
     tools:context=".MainActivity">
 
     <ImageView
@@ -15,18 +13,20 @@
         android:layout_height="170dp"
         app:srcCompat="@drawable/aspra"
         tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="-144dp" />
+        tools:layout_editor_absoluteY="-144dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button_home_login"
-        android:layout_width="325dp"
-        android:layout_height="100dp"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
         android:layout_marginStart="123dp"
         android:layout_marginTop="224dp"
         android:layout_marginEnd="124dp"
-        android:backgroundTint="@color/material_dynamic_primary90"
+        android:backgroundTint="@color/secondary"
         android:onClick="irLogin"
         android:text="@string/login_name"
+        android:textSize="20sp"
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
@@ -37,15 +37,15 @@
 
     <Button
         android:id="@+id/button_home_contacto"
-        android:layout_width="325dp"
-        android:layout_height="100dp"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
         android:layout_marginStart="146dp"
         android:layout_marginEnd="150dp"
         android:layout_marginBottom="73dp"
-        android:backgroundTint="@color/material_dynamic_primary90"
-        android:backgroundTintMode="add"
+        android:backgroundTint="@color/secondary"
         android:onClick="irContacto"
         android:text="@string/contacto_name"
+        android:textSize="20sp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,14 +57,15 @@
 
     <Button
         android:id="@+id/button_home_reportar"
-        android:layout_width="325dp"
-        android:layout_height="100dp"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
         android:layout_marginStart="149dp"
         android:layout_marginEnd="150dp"
         android:layout_marginBottom="217dp"
-        android:backgroundTint="@color/material_dynamic_primary90"
+        android:backgroundTint="@color/secondary"
         android:onClick="irReportar"
         android:text="@string/reporte_name"
+        android:textSize="20sp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

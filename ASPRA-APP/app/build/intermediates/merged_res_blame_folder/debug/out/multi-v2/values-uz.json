@@ -4,24 +4,7 @@
             "outputFile": "com.example.aspra_app-mergeDebugResources-26:/values-uz/values-uz.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\educacion 3.0\\.gradle\\caches\\transforms-3\\ab80475af2f6748ede33dcc1d7c44185\\transformed\\core-1.9.0\\res\\values-uz\\values-uz.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "96",
-                        "startColumns": "4",
-                        "startOffsets": "8046",
-                        "endColumns": "100",
-                        "endOffsets": "8142"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\educacion 3.0\\.gradle\\caches\\transforms-3\\87008309691aef0096909f2b225dfc3a\\transformed\\appcompat-1.6.1\\res\\values-uz\\values-uz.xml",
+                    "source": "C:\\Users\\proye\\.gradle\\caches\\transforms-3\\af575453595166fed38ef613cf3573b3\\transformed\\appcompat-1.6.1\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\educacion 3.0\\.gradle\\caches\\transforms-3\\30ca03709d246a483ae15e1ca9bcb685\\transformed\\material-1.9.0\\res\\values-uz\\values-uz.xml",
+                    "source": "C:\\Users\\proye\\.gradle\\caches\\transforms-3\\e5f321a248aa217236dda4759916dcd9\\transformed\\material-1.9.0\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -54,6 +37,23 @@
                         "endLines": "5,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94",
                         "endColumns": "12,76,79,82,93,86,94,126,83,63,102,69,66,108,62,66,58,73,62,53,114,57,61,53,74,128,89,88,140,81,81,85,59,50,65,72,77,85,71,76,74,70,93,78,95,93,73,75,85,52,65,84,90,61,63,62,101,90,95,91,63,54,82",
                         "endOffsets": "328,3076,3156,3239,3333,3420,3515,3642,3726,3790,3893,3963,4030,4139,4202,4269,4328,4402,4465,4519,4634,4692,4754,4808,4883,5012,5102,5191,5332,5414,5496,5582,5642,5693,5759,5832,5910,5996,6068,6145,6220,6291,6385,6464,6560,6654,6728,6804,6890,6943,7009,7094,7185,7247,7311,7374,7476,7567,7663,7755,7819,7874,7957"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\proye\\.gradle\\caches\\transforms-3\\28a7af075d5af218c19b63a2f54b1523\\transformed\\core-1.9.0\\res\\values-uz\\values-uz.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "96",
+                        "startColumns": "4",
+                        "startOffsets": "8046",
+                        "endColumns": "100",
+                        "endOffsets": "8142"
                     }
                 }
             ]

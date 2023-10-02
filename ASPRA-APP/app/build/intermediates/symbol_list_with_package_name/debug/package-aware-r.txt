@@ -1397,6 +1397,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_logo_launcher_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2022,6 +2023,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color primary
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2032,6 +2034,7 @@ color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color ripple_material_dark
 color ripple_material_light
+color secondary
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -2899,6 +2902,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable aspra
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -2928,6 +2932,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable icono
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3180,6 +3185,8 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextTextEmailAddress
+id editTextTextPassword
 id edit_query
 id elastic
 id embed
@@ -3187,6 +3194,8 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etDescripcion
+id etDireccion
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3227,6 +3236,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView5
 id immediateStop
 id included
 id indeterminate
@@ -3410,6 +3420,7 @@ id snackbar_text
 id snap
 id snapMargins
 id south
+id spMotivo
 id spacer
 id special_effects_controller_view_tag
 id spline
@@ -3454,6 +3465,17 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView10
+id textView11
+id textView2
+id textView3
+id textView4
+id textView5
+id textView6
+id textView7
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3479,6 +3501,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvMotivo
 id unchecked
 id uniform
 id unlabeled
@@ -3700,7 +3723,13 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_logo_launcher
+mipmap ic_logo_launcher_foreground
+mipmap ic_logo_launcher_round
 plurals mtrl_badge_content_description
+string Descripcion
+string Direccion
+string Motivo
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3859,7 +3888,6 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string registrarse_confirmar
 string registro_name
-string reporteOK_name
 string reporte_enviar
 string reporte_name
 string search_menu_title
@@ -4487,6 +4515,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
+style Theme_Transparent
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

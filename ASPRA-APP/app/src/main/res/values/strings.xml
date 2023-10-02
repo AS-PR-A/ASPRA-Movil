@@ -1,11 +1,10 @@
 <resources>
     <string name="app_name">ASPRA-APP</string>
-    <string name="home_name">ASPRA Movil</string>
+    <string name="home_name">Inicio</string>
     <string name="contacto_name">Contacto</string>
     <string name="login_name">Inicio de Sesión</string>
     <string name="registro_name">Registrarse</string>
     <string name="reporte_name">Reportar</string>
-    <string name="reporteOK_name">Realizar otro reporte</string>
     <string name="login_inicio">Ingresar</string>
     <string name="registrarse_confirmar">Confirmar datos</string>
     <string name="reporte_enviar">Enviar reporte</string>
