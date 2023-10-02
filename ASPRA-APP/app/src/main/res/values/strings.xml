@@ -11,4 +11,5 @@
     <string name="Direccion">Direccion</string>
     <string name="Motivo">Motivo</string>
     <string name="Descripcion">Descripcion</string>
+    <string name="SALIR">SALIR</string>
 </resources>
