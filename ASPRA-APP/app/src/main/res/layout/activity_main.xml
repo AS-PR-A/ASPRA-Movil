@@ -9,29 +9,28 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="490dp"
-        android:layout_height="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:contentDescription="@null"
         app:srcCompat="@drawable/aspra"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="-144dp"
         tools:ignore="MissingConstraints" />
+
 
     <Button
         android:id="@+id/button_home_login"
         android:layout_width="250dp"
         android:layout_height="75dp"
         android:layout_marginStart="123dp"
-        android:layout_marginTop="224dp"
         android:layout_marginEnd="124dp"
         android:backgroundTint="@color/secondary"
         android:onClick="irLogin"
         android:text="@string/login_name"
         android:textSize="20sp"
-        app:cornerRadius="20dp"
+        app:cornerRadius="60dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
         app:strokeColor="@color/black"
         tools:ignore="MissingConstraints" />
 
@@ -41,7 +40,7 @@
         android:layout_height="75dp"
         android:layout_marginStart="146dp"
         android:layout_marginEnd="150dp"
-        android:layout_marginBottom="73dp"
+        android:layout_marginBottom="104dp"
         android:backgroundTint="@color/secondary"
         android:onClick="irContacto"
         android:text="@string/contacto_name"
@@ -49,9 +48,8 @@
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_home_reportar"
-        app:layout_constraintVertical_bias="0.31"
         app:strokeColor="@color/black"
         tools:ignore="MissingConstraints" />
 
@@ -61,18 +59,17 @@
         android:layout_height="75dp"
         android:layout_marginStart="149dp"
         android:layout_marginEnd="150dp"
-        android:layout_marginBottom="217dp"
+        android:layout_marginBottom="60dp"
         android:backgroundTint="@color/secondary"
         android:onClick="irReportar"
         android:text="@string/reporte_name"
         android:textSize="20sp"
         app:cornerRadius="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button_home_contacto"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_home_login"
-        app:layout_constraintVertical_bias="0.31"
+        app:layout_constraintVertical_bias="0.611"
         app:strokeColor="@color/black"
         tools:ignore="MissingConstraints" />
 
