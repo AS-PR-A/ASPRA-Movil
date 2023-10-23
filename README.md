@@ -16,7 +16,7 @@
 
 <br>
 
-## ⏮️[Repositorio anterior](https://github.com/Ezmant/Proyecto_FullStack_ISPC)⏮️
+## ⏮️[Repositorio anterior (ASPRA WEB)](https://github.com/Ezmant/Proyecto_FullStack_ISPC)⏮️
 
 <br>
 
@@ -56,6 +56,15 @@
 
 <br>
 
-## Proximamente 🏗️🚧
+## En Construcción 🏗️🚧
 
-- Aplicacion movil para Android escrita en el lenguaje de programacion "Java"
+- Aplicacion movil para Android📱
+
+### Lenguaje de programación
+- Java
+
+### IDE a  Utilizar
+- Android Studio
+
+### Base de Datos
+- SQLite
