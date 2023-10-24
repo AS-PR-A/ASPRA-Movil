@@ -7,32 +7,18 @@
     tools:context=".ReportarActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="@string/Direccion"
-        android:textSize="22sp"
+        android:layout_height="0dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/reporte_name"
+        android:textColor="@color/primary"
+        android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="#226867"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvDireccion"
-        android:layout_width="232dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="44dp"
-        android:text="Por favor, ingrese una dirección"
-        android:textColor=" #7b7d7d "
-        android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button_reporte_enviar"
@@ -41,53 +27,90 @@
         android:layout_marginBottom="76dp"
         android:onClick="irReporteExitoso"
         android:text="@string/reporte_enviar"
-        app:iconTint="#226867"
-        android:backgroundTint="#226867"
+        app:iconTint="@color/secondary"
+        android:backgroundTint="@color/secondary"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/etDireccion"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="304dp"
-        android:text="@string/Motivo"
-        android:textColor="#226867"
-        android:textSize="22sp"
-        android:textStyle="bold"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Por favor, ingrese una dirección"
+        android:inputType="text"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Spinner
+        android:id="@+id/spMotivo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMotivo" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Por favor, ingrese una descripción"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="516dp"
+        android:layout_marginTop="432dp"
         android:text="@string/Descripcion"
-        android:textColor="#226867"
+        android:textColor="@color/primary"
         android:textSize="22sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintHorizontal_bias="0.572"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvDireccion"
-        android:layout_width="232dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="40dp"
-        android:text="Por favor, ingrese una descripción"
-        android:textColor=" #7b7d7d "
-        android:textSize="15sp"
+        android:id="@+id/tvMotivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="@string/Motivo"
+        android:textColor="@color/primary"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:text="@string/Direccion"
+        android:textColor="@color/primary"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

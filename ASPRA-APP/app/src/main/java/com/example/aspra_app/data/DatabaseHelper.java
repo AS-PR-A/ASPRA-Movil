@@ -23,7 +23,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     COLUMN_EMAIL + " TEXT, " +
                     COLUMN_PASS + " TEXT);";
 
-    public static final String TABLA_REPORTES = "usuarios";
+    /*public static final String TABLA_REPORTES = "usuarios";
     public static final String COLUMN_ID_REPORTE = "idreporte";
     public static final String COLUMN_DIRECCION = "direccion";
     public static final String COLUMN_DESCRIPCION = "descripcion";
@@ -37,7 +37,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     COLUMN_DESCRIPCION + " TEXT, " +
                     COLUMN_EMAILUSER + " TEXT," +
                     COLUMN_ID_MOTIVO + " TEXT);"
-            ;
+            ;*/
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -54,7 +54,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLA_USUARIOS);
         onCreate(db);
 
-        db.execSQL("DROP TABLE IF EXISTS " + TABLA_REPORTES);
-        onCreate(db);
+        /*db.execSQL("DROP TABLE IF EXISTS " + TABLA_REPORTES);
+        onCreate(db);*/
     }
 }

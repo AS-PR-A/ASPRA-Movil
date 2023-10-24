@@ -74,4 +74,4 @@ public class UserDAO {
         usuario.setEmail(cursor.getString(cursor.getColumnIndex(DatabaseHelper.COLUMN_EMAIL)));
         usuario.setPass(cursor.getString(cursor.getColumnIndex(DatabaseHelper.COLUMN_PASS)));
         return usuario;
-    }
+    }}

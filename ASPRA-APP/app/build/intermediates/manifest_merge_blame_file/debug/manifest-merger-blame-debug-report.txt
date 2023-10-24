@@ -9,155 +9,180 @@
 9        android:targetSdkVersion="33" />
 10
 11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\Krave\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.9.0] C:\Users\Mi Equipo\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 12        android:name="com.example.aspra_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\Krave\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.9.0] C:\Users\Mi Equipo\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\Krave\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.9.0] C:\Users\Mi Equipo\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.example.aspra_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\Krave\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\Krave\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.9.0] C:\Users\Mi Equipo\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Mi Equipo\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:5:5-70:19
+17-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:5:5-78:19
 18        android:allowBackup="true"
-18-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:6:9-35
+18-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\Krave\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.9.0] C:\Users\Mi Equipo\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:7:9-65
+20-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:8:9-54
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:9:9-43
+23-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_logo_launcher"
+24-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:9:9-48
 25        android:label="@string/app_name"
-25-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:10:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:11:9-54
+25-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_logo_launcher_round"
+26-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:11:9-59
 27        android:supportsRtl="true"
-27-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:12:9-35
+27-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:12:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.ASPRAAPP" >
-29-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:13:9-46
+29-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:13:9-46
 30        <activity
-30-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:15:9-23:20
-31            android:name="com.example.aspra_app.ReporteExitosoActivity"
-31-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:16:13-51
-32            android:label="@string/reporteOK_name"
-32-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:17:13-53
-33            android:parentActivityName="com.example.aspra_app.ReportarActivity" >
-33-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:18:13-59
-34            <meta-data
-34-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:19:13-22:64
-35                android:name="android.support.PARENT_ACTIVITY"
-35-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:20:17-63
-36                android:value="com.example.aspra_app.ReportarActivity" />
-36-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:21:17-93
-37        </activity>
-38        <activity
-38-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:24:9-32:20
-39            android:name="com.example.aspra_app.ReportarActivity"
-39-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:25:13-45
-40            android:label="@string/reporte_name"
-40-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:26:13-51
-41            android:parentActivityName="com.example.aspra_app.MainActivity" >
-41-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:27:13-55
-42            <meta-data
-42-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:19:13-22:64
-43                android:name="android.support.PARENT_ACTIVITY"
-43-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:20:17-63
-44                android:value="com.example.aspra_app.MainActivity" />
-44-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:21:17-93
-45        </activity>
-46        <activity
-46-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:33:9-41:20
-47            android:name="com.example.aspra_app.RegistrarseActivity"
-47-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:34:13-48
-48            android:label="@string/registro_name"
-48-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:35:13-52
-49            android:parentActivityName="com.example.aspra_app.LoginActivity" >
-49-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:36:13-56
-50            <meta-data
-50-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:19:13-22:64
-51                android:name="android.support.PARENT_ACTIVITY"
-51-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:20:17-63
-52                android:value="com.example.aspra_app.LoginActivity" />
-52-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:21:17-93
-53        </activity>
-54        <activity
-54-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:42:9-50:20
-55            android:name="com.example.aspra_app.LoginActivity"
-55-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:43:13-42
-56            android:label="@string/login_name"
-56-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:44:13-49
-57            android:parentActivityName="com.example.aspra_app.MainActivity" >
-57-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:45:13-55
-58            <meta-data
-58-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:19:13-22:64
-59                android:name="android.support.PARENT_ACTIVITY"
-59-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:20:17-63
-60                android:value="com.example.aspra_app.MainActivity" />
-60-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:21:17-93
-61        </activity>
-62        <activity
-62-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:51:9-59:20
-63            android:name="com.example.aspra_app.ContactoActivity"
-63-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:52:13-45
-64            android:label="@string/contacto_name"
-64-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:53:13-52
-65            android:parentActivityName="com.example.aspra_app.MainActivity" >
-65-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:54:13-55
-66            <meta-data
-66-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:19:13-22:64
-67                android:name="android.support.PARENT_ACTIVITY"
-67-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:20:17-63
-68                android:value="com.example.aspra_app.MainActivity" />
-68-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:21:17-93
-69        </activity>
-70        <activity
-70-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:60:9-69:20
-71            android:name="com.example.aspra_app.MainActivity"
-71-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:61:13-41
-72            android:exported="true"
-72-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:63:13-36
-73            android:label="@string/home_name" >
-73-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:62:13-48
-74            <intent-filter>
-74-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:64:13-68:29
-75                <action android:name="android.intent.action.MAIN" />
-75-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:65:17-69
-75-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:65:25-66
-76
-77                <category android:name="android.intent.category.LAUNCHER" />
-77-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:67:17-77
-77-->C:\Users\Krave\Documents\Git\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:67:27-74
-78            </intent-filter>
-79        </activity>
-80
-81        <provider
-81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Krave\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-82            android:name="androidx.startup.InitializationProvider"
-82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Krave\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-83            android:authorities="com.example.aspra_app.androidx-startup"
-83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Krave\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-84            android:exported="false" >
-84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Krave\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-85            <meta-data
-85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Krave\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Krave\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-87                android:value="androidx.startup" />
-87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Krave\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-88            <meta-data
-88-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Krave\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-89-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Krave\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-90                android:value="androidx.startup" />
-90-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Krave\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-91        </provider>
-92    </application>
+30-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:15:9-23:20
+31            android:name="com.example.aspra_app.MultimediaActivity"
+31-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:16:13-47
+32            android:exported="true" >
+32-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:17:13-36
+33            <intent-filter>
+33-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:18:13-22:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:19:17-69
+34-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:19:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:21:17-77
+36-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:21:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.example.aspra_app.models.MultimediaActivity"
+40-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:25:13-54
+41            android:exported="false" />
+41-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:27:9-34:20
+43            android:name="com.example.aspra_app.ReporteExitosoActivity"
+43-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:28:13-51
+44            android:label="@string/reporte_name"
+44-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:29:13-49
+45            android:parentActivityName="com.example.aspra_app.ReportarActivity" >
+45-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:30:13-59
+46            <meta-data
+46-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:31:13-33:74
+47                android:name="android.support.PARENT_ACTIVITY"
+47-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:32:17-63
+48                android:value="com.example.aspra_app.ReportarActivity" />
+48-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:33:17-71
+49        </activity>
+50        <activity
+50-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:35:9-42:20
+51            android:name="com.example.aspra_app.ReportarActivity"
+51-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:36:13-45
+52            android:label="@string/home_name"
+52-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:37:13-46
+53            android:parentActivityName="com.example.aspra_app.MainActivity" >
+53-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:38:13-55
+54            <meta-data
+54-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:31:13-33:74
+55                android:name="android.support.PARENT_ACTIVITY"
+55-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:32:17-63
+56                android:value="com.example.aspra_app.MainActivity" />
+56-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:33:17-71
+57        </activity>
+58        <activity
+58-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:43:9-50:20
+59            android:name="com.example.aspra_app.RegistrarseActivity"
+59-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:44:13-48
+60            android:label="@string/login_name"
+60-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:45:13-47
+61            android:parentActivityName="com.example.aspra_app.LoginActivity" >
+61-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:46:13-56
+62            <meta-data
+62-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:31:13-33:74
+63                android:name="android.support.PARENT_ACTIVITY"
+63-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:32:17-63
+64                android:value="com.example.aspra_app.LoginActivity" />
+64-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:33:17-71
+65        </activity>
+66        <activity
+66-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:51:9-58:20
+67            android:name="com.example.aspra_app.LoginActivity"
+67-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:52:13-42
+68            android:label="@string/home_name"
+68-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:53:13-46
+69            android:parentActivityName="com.example.aspra_app.MainActivity" >
+69-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:54:13-55
+70            <meta-data
+70-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:31:13-33:74
+71                android:name="android.support.PARENT_ACTIVITY"
+71-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:32:17-63
+72                android:value="com.example.aspra_app.MainActivity" />
+72-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:33:17-71
+73        </activity>
+74        <activity
+74-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:59:9-66:20
+75            android:name="com.example.aspra_app.ContactoActivity"
+75-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:60:13-45
+76            android:label="@string/home_name"
+76-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:61:13-46
+77            android:parentActivityName="com.example.aspra_app.MainActivity" >
+77-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:62:13-55
+78            <meta-data
+78-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:31:13-33:74
+79                android:name="android.support.PARENT_ACTIVITY"
+79-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:32:17-63
+80                android:value="com.example.aspra_app.MainActivity" />
+80-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:33:17-71
+81        </activity>
+82        <activity
+82-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:67:9-77:20
+83            android:name="com.example.aspra_app.MainActivity"
+83-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:68:13-41
+84            android:exported="true"
+84-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:69:13-36
+85            android:label="ASPRA Movil"
+85-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:70:13-40
+86            android:theme="@style/Theme.Transparent" >
+86-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:71:13-53
+87            <intent-filter>
+87-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:18:13-22:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:19:17-69
+88-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:19:25-66
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:21:17-77
+90-->C:\Users\Mi Equipo\Documents\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:21:27-74
+91            </intent-filter>
+92        </activity>
 93
-94</manifest>
+94        <provider
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mi Equipo\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mi Equipo\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+96            android:authorities="com.example.aspra_app.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mi Equipo\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mi Equipo\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mi Equipo\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mi Equipo\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mi Equipo\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mi Equipo\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mi Equipo\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mi Equipo\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+104        </provider>
+105    </application>
+106
+107</manifest>
