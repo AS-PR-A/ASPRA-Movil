@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ic_logo_launcher_background">#A4C0CE</color>
+    <color name="primary">#006075</color>
+    <color name="secondary">#009688</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Descripcion">Descripcion</string>
+    <string name="Direccion">Direccion</string>
+    <string name="Motivo">Motivo</string>
+    <string name="SALIR">SALIR</string>
+    <string name="app_name">ASPRA-APP</string>
+    <string name="contacto_name">Contacto</string>
+    <string name="home_name">Inicio</string>
+    <string name="login_inicio">Ingresar</string>
+    <string name="login_name">Inicio de Sesión</string>
+    <string name="registrarse_confirmar">Confirmar datos</string>
+    <string name="registro_name">Registrarse</string>
+    <string name="reporte_enviar">Enviar reporte</string>
+    <string name="reporte_name">Reportar</string>
+    <style name="Base.Theme.ASPRAAPP" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        
+    </style>
+    <style name="Theme.ASPRAAPP" parent="Base.Theme.ASPRAAPP"/>
+    <style name="Theme.Transparent" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
