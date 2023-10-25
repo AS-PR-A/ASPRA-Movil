@@ -3107,6 +3107,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id buttonPanel
+id button_bd
 id button_home_contacto
 id button_home_login
 id button_home_multimedia

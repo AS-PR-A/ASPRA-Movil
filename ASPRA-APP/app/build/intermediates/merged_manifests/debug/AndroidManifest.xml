@@ -29,15 +29,6 @@
         android:theme="@style/Theme.ASPRAAPP" >
         <activity
             android:name="com.example.aspra_app.MultimediaActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.example.aspra_app.models.MultimediaActivity"
             android:exported="false" />
         <activity
             android:name="com.example.aspra_app.ReporteExitosoActivity"

@@ -10,6 +10,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable icono
 id botonRedireccionar
+id button_bd
 id button_home_contacto
 id button_home_login
 id button_home_multimedia
