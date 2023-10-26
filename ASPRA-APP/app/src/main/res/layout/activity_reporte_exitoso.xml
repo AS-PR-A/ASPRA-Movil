@@ -7,19 +7,16 @@
 
     <Button
         android:id="@+id/botonRedireccionar"
-        android:layout_width="200dp"
-        android:layout_height="61dp"
-        android:layout_marginBottom="38dp"
-        android:background="@color/secondary"
-        android:iconTint="@color/secondary"
+        android:layout_width="163dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/secondary"
         android:onClick="redirigirAMainActivity"
         android:text="@string/SALIR"
         android:textColor="#FFFFFF"
-        android:textSize="34sp"
-        android:textStyle="bold"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
