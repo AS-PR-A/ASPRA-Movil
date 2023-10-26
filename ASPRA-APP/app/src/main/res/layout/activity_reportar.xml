@@ -34,7 +34,7 @@
         android:onClick="irReporteExitoso"
         android:text="@string/reporte_enviar"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:iconTint="@color/secondary"

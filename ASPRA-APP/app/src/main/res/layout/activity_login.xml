@@ -29,7 +29,7 @@
         android:onClick="irReportar"
         android:text="@string/login_inicio"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button_login_registrarse"

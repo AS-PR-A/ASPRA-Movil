@@ -85,7 +85,7 @@
         android:onClick="irRegistrarse"
         android:text="@string/registrarse_confirmar"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         app:iconTint="@color/secondary"

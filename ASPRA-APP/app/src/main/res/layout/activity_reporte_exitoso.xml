@@ -14,7 +14,7 @@
         android:onClick="redirigirAMainActivity"
         android:text="@string/SALIR"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
