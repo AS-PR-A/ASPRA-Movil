@@ -41,13 +41,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etDescripcion"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/etDireccion"
         android:layout_width="291dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
         android:layout_marginTop="30dp"
         android:ems="10"
         android:hint="Por favor, ingrese una dirección"
@@ -75,7 +74,7 @@
     <EditText
         android:id="@+id/etDescripcion"
         android:layout_width="295dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_marginTop="536dp"
         android:ems="10"
         android:hint="Por favor, ingrese una descripción"
