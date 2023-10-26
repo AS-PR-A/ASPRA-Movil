@@ -3,27 +3,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/secondary">
 
     <Button
         android:id="@+id/botonRedireccionar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="38dp"
+        android:layout_width="163dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/white"
         android:onClick="redirigirAMainActivity"
         android:text="@string/SALIR"
+        android:textAlignment="center"
+        android:textColor="@color/secondary"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Su reporte fue enviado exitosamente!"
+        android:text="@string/su_reporte_fue_enviado_exitosamente"
         android:textAlignment="center"
-        android:textSize="34sp"
+        android:textColor="@color/white"
+        android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/botonRedireccionar"
         app:layout_constraintEnd_toEndOf="parent"
