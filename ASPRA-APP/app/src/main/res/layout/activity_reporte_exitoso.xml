@@ -3,18 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/secondary">
 
     <Button
         android:id="@+id/botonRedireccionar"
         android:layout_width="163dp"
         android:layout_height="58dp"
         android:layout_marginBottom="56dp"
-        android:backgroundTint="@color/secondary"
+        android:backgroundTint="@color/white"
         android:onClick="redirigirAMainActivity"
         android:text="@string/SALIR"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/secondary"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,7 +28,7 @@
         android:layout_height="wrap_content"
         android:text="@string/su_reporte_fue_enviado_exitosamente"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/botonRedireccionar"
