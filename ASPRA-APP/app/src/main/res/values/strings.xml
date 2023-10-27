@@ -6,10 +6,11 @@
     <string name="registro_name">Registrarse</string>
     <string name="reporte_name">Reportar</string>
     <string name="login_inicio">Ingresar</string>
-    <string name="registrarse_confirmar">Confirmar datos</string>
-    <string name="reporte_enviar">Enviar reporte</string>
+    <string name="registrarse_confirmar">Confirmar</string>
+    <string name="reporte_enviar">Enviar</string>
     <string name="Direccion">Direccion</string>
     <string name="Motivo">Motivo</string>
     <string name="Descripcion">Descripcion</string>
     <string name="SALIR">SALIR</string>
+    <string name="su_reporte_fue_enviado_exitosamente">Su reporte fue enviado exitosamente!</string>
 </resources>
