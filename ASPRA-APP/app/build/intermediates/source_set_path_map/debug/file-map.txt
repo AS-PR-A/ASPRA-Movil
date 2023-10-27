@@ -22,10 +22,10 @@ com.example.aspra_app-activity-1.6.0-20 C:\Users\proye\.gradle\caches\transforms
 com.example.aspra_app-drawerlayout-1.1.1-21 C:\Users\proye\.gradle\caches\transforms-3\e2d2d3c4dd62635dbea352ab171561e5\transformed\drawerlayout-1.1.1\res
 com.example.aspra_app-transition-1.2.0-22 C:\Users\proye\.gradle\caches\transforms-3\e44573450bfeaacfbe89d93e4952b042\transformed\transition-1.2.0\res
 com.example.aspra_app-material-1.9.0-23 C:\Users\proye\.gradle\caches\transforms-3\e5f321a248aa217236dda4759916dcd9\transformed\material-1.9.0\res
-com.example.aspra_app-pngs-24 C:\Users\proye\Desktop\TP GITHUB\ASPRA-Movil\ASPRA-APP\app\build\generated\res\pngs\debug
-com.example.aspra_app-resValues-25 C:\Users\proye\Desktop\TP GITHUB\ASPRA-Movil\ASPRA-APP\app\build\generated\res\resValues\debug
-com.example.aspra_app-packageDebugResources-26 C:\Users\proye\Desktop\TP GITHUB\ASPRA-Movil\ASPRA-APP\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.aspra_app-packageDebugResources-27 C:\Users\proye\Desktop\TP GITHUB\ASPRA-Movil\ASPRA-APP\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.aspra_app-merged_res-28 C:\Users\proye\Desktop\TP GITHUB\ASPRA-Movil\ASPRA-APP\app\build\intermediates\merged_res\debug
-com.example.aspra_app-debug-29 C:\Users\proye\Desktop\TP GITHUB\ASPRA-Movil\ASPRA-APP\app\src\debug\res
-com.example.aspra_app-main-30 C:\Users\proye\Desktop\TP GITHUB\ASPRA-Movil\ASPRA-APP\app\src\main\res
+com.example.aspra_app-pngs-24 C:\Users\proye\Desktop\TP GITHUB\SPRINT 2\ASPRA-Movil\ASPRA-APP\app\build\generated\res\pngs\debug
+com.example.aspra_app-resValues-25 C:\Users\proye\Desktop\TP GITHUB\SPRINT 2\ASPRA-Movil\ASPRA-APP\app\build\generated\res\resValues\debug
+com.example.aspra_app-packageDebugResources-26 C:\Users\proye\Desktop\TP GITHUB\SPRINT 2\ASPRA-Movil\ASPRA-APP\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.aspra_app-packageDebugResources-27 C:\Users\proye\Desktop\TP GITHUB\SPRINT 2\ASPRA-Movil\ASPRA-APP\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.aspra_app-merged_res-28 C:\Users\proye\Desktop\TP GITHUB\SPRINT 2\ASPRA-Movil\ASPRA-APP\app\build\intermediates\merged_res\debug
+com.example.aspra_app-debug-29 C:\Users\proye\Desktop\TP GITHUB\SPRINT 2\ASPRA-Movil\ASPRA-APP\app\src\debug\res
+com.example.aspra_app-main-30 C:\Users\proye\Desktop\TP GITHUB\SPRINT 2\ASPRA-Movil\ASPRA-APP\app\src\main\res

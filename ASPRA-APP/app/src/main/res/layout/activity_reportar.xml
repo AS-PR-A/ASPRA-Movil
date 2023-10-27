@@ -14,7 +14,7 @@
         android:layout_height="64dp"
         android:layout_marginTop="56dp"
         android:layout_marginBottom="56dp"
-        android:text="@string/reporte_name"
+        android:text="@string/reportar_name"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="48sp"

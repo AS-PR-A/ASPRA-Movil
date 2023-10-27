@@ -4,7 +4,7 @@
     <string name="contacto_name">Contacto</string>
     <string name="login_name">Inicio de Sesión</string>
     <string name="registro_name">Registrarse</string>
-    <string name="reporte_name">Reportar</string>
+    <string name="reportar_name">Reportar</string>
     <string name="login_inicio">Ingresar</string>
     <string name="registrarse_confirmar">Confirmar</string>
     <string name="reporte_enviar">Enviar</string>
@@ -13,4 +13,11 @@
     <string name="Descripcion">Descripcion</string>
     <string name="SALIR">SALIR</string>
     <string name="su_reporte_fue_enviado_exitosamente">Su reporte fue enviado exitosamente!</string>
+    <string name="mis_reportes_name">Mis Reportes</string>
+    <string name="reporte_name">Reporte</string>
+    <string name="editar">Editar</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="mi_cuenta_name">Mi cuenta</string>
+    <string name="multimedia">Ver video institucional</string>
+    <string name="modificar">Modificar datos</string>
 </resources>

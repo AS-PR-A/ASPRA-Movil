@@ -28,8 +28,59 @@
         android:testOnly="true"
         android:theme="@style/Theme.ASPRAAPP" >
         <activity
+            android:name="com.example.aspra_app.EditarCuentaActivity"
+            android:exported="false"
+            android:label="@string/mi_cuenta_name"
+            android:parentActivityName="com.example.aspra_app.MiCuentaActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aspra_app.MiCuentaActivity" />
+        </activity>
+        <activity
+            android:name="com.example.aspra_app.MiCuentaActivity"
+            android:exported="false"
+            android:label="@string/home_name"
+            android:parentActivityName="com.example.aspra_app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aspra_app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.aspra_app.EditarReporteActivity"
+            android:exported="false"
+            android:label="@string/reporte_name"
+            android:parentActivityName="com.example.aspra_app.ReporteActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aspra_app.ReporteActivity" />
+        </activity>
+        <activity
+            android:name="com.example.aspra_app.ReporteActivity"
+            android:exported="false"
+            android:label="@string/mis_reportes_name"
+            android:parentActivityName="com.example.aspra_app.MisReportesActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aspra_app.MisReportesActivity" />
+        </activity>
+        <activity
+            android:name="com.example.aspra_app.MisReportesActivity"
+            android:exported="false"
+            android:label="@string/home_name"
+            android:parentActivityName="com.example.aspra_app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aspra_app.MainActivity" />
+        </activity>
+        <activity
             android:name="com.example.aspra_app.MultimediaActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/home_name"
+            android:parentActivityName="com.example.aspra_app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aspra_app.MainActivity" />
+        </activity>
         <activity
             android:name="com.example.aspra_app.ReporteExitosoActivity"
             android:label="@string/reporte_name"

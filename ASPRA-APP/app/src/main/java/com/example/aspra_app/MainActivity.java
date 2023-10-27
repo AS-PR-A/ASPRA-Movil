@@ -19,19 +19,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        buttonDB = findViewById(R.id.button_bd);
-        buttonDB.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                DatabaseHelper dbHelper = new DatabaseHelper(MainActivity.this);
-                SQLiteDatabase db = dbHelper.getWritableDatabase();
-                if (db != null) {
-                    Toast.makeText(MainActivity.this, "BASE DE DATOS CREADA", Toast.LENGTH_SHORT).show();
-                } else {
-                    Toast.makeText(MainActivity.this, "ERROR AL CREAR BASE DE DATOS", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
     }
 
     public void irLogin(View view) {
@@ -53,5 +40,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void irMisReportes(View view) {
+        Intent intent = new Intent(this, MisReportesActivity.class);
+        startActivity(intent);
+    }
 
+    public void irMiCuenta(View view) {
+        Intent intent = new Intent(this, MiCuentaActivity.class);
+        startActivity(intent);
+    }
 }

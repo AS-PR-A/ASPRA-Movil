@@ -3,21 +3,29 @@
     <color name="black">#FF000000</color>
     <color name="ic_logo_launcher_background">#A4C0CE</color>
     <color name="primary">#006075</color>
-    <color name="secondary">#009688</color>
+    <color name="secondary">#012736</color>
     <color name="white">#FFFFFFFF</color>
     <string name="Descripcion">Descripcion</string>
     <string name="Direccion">Direccion</string>
     <string name="Motivo">Motivo</string>
     <string name="SALIR">SALIR</string>
     <string name="app_name">ASPRA-APP</string>
+    <string name="confirmar">Confirmar</string>
     <string name="contacto_name">Contacto</string>
+    <string name="editar">Editar</string>
     <string name="home_name">Inicio</string>
     <string name="login_inicio">Ingresar</string>
     <string name="login_name">Inicio de Sesión</string>
-    <string name="registrarse_confirmar">Confirmar datos</string>
+    <string name="mi_cuenta_name">Mi cuenta</string>
+    <string name="mis_reportes_name">Mis Reportes</string>
+    <string name="modificar">Modificar datos</string>
+    <string name="multimedia">Ver video institucional</string>
+    <string name="registrarse_confirmar">Confirmar</string>
     <string name="registro_name">Registrarse</string>
-    <string name="reporte_enviar">Enviar reporte</string>
-    <string name="reporte_name">Reportar</string>
+    <string name="reportar_name">Reportar</string>
+    <string name="reporte_enviar">Enviar</string>
+    <string name="reporte_name">Reporte</string>
+    <string name="su_reporte_fue_enviado_exitosamente">Su reporte fue enviado exitosamente!</string>
     <style name="Base.Theme.ASPRAAPP" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/primary</item>
