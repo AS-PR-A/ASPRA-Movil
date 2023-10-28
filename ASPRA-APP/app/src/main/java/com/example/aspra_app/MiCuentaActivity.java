@@ -56,7 +56,4 @@ public class MiCuentaActivity extends AppCompatActivity {
         AlertDialog alert = builder.create();
         alert.show();
     }
-
-
-
 }
