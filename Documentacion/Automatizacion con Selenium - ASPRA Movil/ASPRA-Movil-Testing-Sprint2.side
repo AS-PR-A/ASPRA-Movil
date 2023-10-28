@@ -1,0 +1,191 @@
+{
+  "id": "01f68510-e8d3-4ed1-a156-016ca6dcc757",
+  "version": "2.0",
+  "name": "ASPRA-Movil-Testing-Sprint2",
+  "url": "https://www.saucedemo.com/",
+  "tests": [{
+    "id": "907b5b27-df79-4a7b-9024-5f12fd68a512",
+    "name": "CP1 -Ingresar a SauceDemo sin datos de entrada",
+    "commands": [{
+      "id": "160e8188-9eb4-4988-b62e-30279a1059e8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20750562-0863-4b83-8004-c88a4a6fc0f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc80eac5-782a-43ee-8e33-67c7cc98db6c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "Epic sadface: Username is required"
+    }]
+  }, {
+    "id": "5dc45e3b-5aab-4b05-b808-a3c88a86afce",
+    "name": "CP2 - Ingresar a SauceDemo sólo con usuario",
+    "commands": [{
+      "id": "acf7e06e-de4a-41d0-9715-82c8b3d0423e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c776f05-2464-4e53-bdd2-c5ec705569ec",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-name",
+      "targets": [],
+      "value": "ASPRA_Movil"
+    }, {
+      "id": "3d8940f1-904f-43a3-bf5d-1a8d4784be2b",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b707f079-27f5-423e-b8ef-39da43bef5c0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "Epic sadface: Password is required"
+    }]
+  }, {
+    "id": "032370ee-a9b4-40de-882e-d8add5540e6d",
+    "name": "CP3 - Ingresar a SauceDemo solo con contraseña",
+    "commands": [{
+      "id": "68d2ed0a-8bf0-4b0d-b2b1-37a8f42e0736",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31dea49e-e132-4e53-8cb9-7be70963ead0",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "ASPRA_Movil"
+    }, {
+      "id": "4dbc3a09-73c2-4efe-b2ac-f6b3ac3eff7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b19c1558-36b2-4162-857f-ab311e9d73f3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "Epic sadface: Username is required"
+    }]
+  }, {
+    "id": "75de6d55-a30b-4eef-8f67-16e888315fb1",
+    "name": "CP4 - Ingresar con usuario y contraseña no válidos",
+    "commands": [{
+      "id": "c3f498a7-4611-4387-b224-9d6240cce271",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5fe8d28b-e34c-429c-88ef-b30068d7b3a3",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-name",
+      "targets": [],
+      "value": "ASPRA_Movil"
+    }, {
+      "id": "101698cc-1007-4605-8dd1-5d09d3e31128",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "ASPRA_Movil"
+    }, {
+      "id": "9958abe9-474a-48fd-aefb-087e9cfbbee1",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "733aa5d2-1fc4-451d-a640-e80aa600ff7b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "Epic sadface: Username and password do not match any user in this service"
+    }]
+  }, {
+    "id": "ec98dcb5-ee97-411c-a59f-454e1f1a7ee5",
+    "name": "CP5 - Ingresar con usuario y contraseña válidos",
+    "commands": [{
+      "id": "84bcc06a-8eaa-412b-a821-196f27f604f8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0404a72-ef85-4f32-978a-e6433aa05b0a",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-name",
+      "targets": [],
+      "value": "standard_user"
+    }, {
+      "id": "dafc35ef-1501-4faf-8c02-f934d050cbcb",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "secret_sauce"
+    }, {
+      "id": "7f70b162-91e4-4aa7-b7c2-f71b2e23214e",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3e229e5-2b7e-434e-9789-587066cc3504",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "inventory_container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86ea5000-8d59-4a56-ae74-14c82777bbac",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=div.app_logo",
+      "targets": [],
+      "value": "Swag Labs"
+    }]
+  }],
+  "suites": [{
+    "id": "00c9258d-8357-40f7-ad3e-be4f329e7322",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.saucedemo.com/"],
+  "plugins": []
+}

@@ -13,55 +13,104 @@
         android:theme="@style/Theme.ASPRAAPP"
         tools:targetApi="31">
         <activity
+            android:name=".EditarCuentaActivity"
+            android:exported="false"
+            android:label="@string/mi_cuenta_name"
+            android:parentActivityName=".MiCuentaActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aspra_app.MiCuentaActivity" />
+        </activity>
+        <activity
+            android:name=".MiCuentaActivity"
+            android:exported="false"
+            android:label="@string/home_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aspra_app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EditarReporteActivity"
+            android:exported="false"
+            android:label="@string/reporte_name"
+            android:parentActivityName=".ReporteActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aspra_app.ReporteActivity" />
+        </activity>
+        <activity
+            android:name=".ReporteActivity"
+            android:exported="false"
+            android:label="@string/mis_reportes_name"
+            android:parentActivityName=".MisReportesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aspra_app.MisReportesActivity" />
+        </activity>
+        <activity
+            android:name=".MisReportesActivity"
+            android:exported="false"
+            android:label="@string/home_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aspra_app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MultimediaActivity"
+            android:exported="false"
+            android:label="@string/home_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aspra_app.MainActivity" />
+        </activity>
+        <activity
             android:name=".ReporteExitosoActivity"
-            android:label = "@string/reporte_name"
+            android:label="@string/reporte_name"
             android:parentActivityName=".ReportarActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=
-                    "com.example.aspra_app.ReportarActivity" />
+                android:value="com.example.aspra_app.ReportarActivity" />
         </activity>
         <activity
             android:name=".ReportarActivity"
-            android:label = "@string/home_name"
+            android:label="@string/home_name"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=
-                    "com.example.aspra_app.MainActivity" />
+                android:value="com.example.aspra_app.MainActivity" />
         </activity>
         <activity
             android:name=".RegistrarseActivity"
-            android:label = "@string/login_name"
+            android:label="@string/login_name"
             android:parentActivityName=".LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=
-                    "com.example.aspra_app.LoginActivity" />
+                android:value="com.example.aspra_app.LoginActivity" />
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:label = "@string/home_name"
+            android:label="@string/home_name"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=
-                    "com.example.aspra_app.MainActivity" />
+                android:value="com.example.aspra_app.MainActivity" />
         </activity>
         <activity
             android:name=".ContactoActivity"
-            android:label = "@string/home_name"
+            android:label="@string/home_name"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=
-                    "com.example.aspra_app.MainActivity" />
+                android:value="com.example.aspra_app.MainActivity" />
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label = "ASPRA Movil"
-            android:theme="@style/Theme.Transparent"
-            android:exported="true">
+            android:exported="true"
+            android:label="ASPRA Movil"
+            android:theme="@style/Theme.Transparent">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
