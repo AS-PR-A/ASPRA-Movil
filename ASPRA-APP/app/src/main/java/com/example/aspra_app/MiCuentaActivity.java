@@ -48,11 +48,12 @@ public class MiCuentaActivity extends AppCompatActivity {
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         // Acciones a realizar al presionar OK
+                        Intent intent = new Intent(MiCuentaActivity.this, MainActivity.class);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                        startActivity(intent);
                     }
                 });
         AlertDialog alert = builder.create();
         alert.show();
     }
-
-
 }

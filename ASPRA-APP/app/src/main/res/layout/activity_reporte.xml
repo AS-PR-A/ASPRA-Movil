@@ -7,6 +7,53 @@
     android:background="@color/secondary"
     tools:context=".ReporteActivity">
 
+    <EditText
+        android:id="@+id/etDireccion5"
+        android:layout_width="291dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:hint="@string/Direccion"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/etMotivo2"
+        android:layout_width="291dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="@string/Motivo"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/etDescripcion2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDireccion5" />
+
+    <EditText
+        android:id="@+id/etDescripcion2"
+        android:layout_width="291dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="80dp"
+        android:ems="10"
+        android:hint="@string/Descripcion"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button_editar_reporte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/textView15"
         android:layout_width="342dp"
@@ -18,9 +65,11 @@
         android:textSize="48sp"
         android:textStyle="bold"
         android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/etDireccion5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button_editar_reporte"
@@ -28,6 +77,7 @@
         android:layout_height="58dp"
         android:layout_marginStart="124dp"
         android:layout_marginEnd="124dp"
+        android:layout_marginBottom="200dp"
         android:backgroundTint="@color/white"
         android:onClick="irEditarReporte"
         android:text="@string/editar"
@@ -37,11 +87,30 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:strokeColor="@color/black"
         tools:ignore="MissingConstraints" />
 
+    <Button
+        android:id="@+id/button_eliminar_reporte"
+        android:layout_width="163dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginEnd="124dp"
+        android:backgroundTint="#FF0000"
+        android:onClick="eliminarReporte"
+        android:text="Eliminar reporte"
+        android:textAlignment="center"
+        android:textColor="@color/secondary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869"
+        app:strokeColor="@color/black"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,4 +20,6 @@
     <string name="mi_cuenta_name">Mi cuenta</string>
     <string name="multimedia">Ver video institucional</string>
     <string name="modificar">Modificar datos</string>
+    <string name="eliminar_reporte">ELIMINAR REPORTE</string>
+
 </resources>
