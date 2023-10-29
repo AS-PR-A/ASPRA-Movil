@@ -16,27 +16,21 @@ public class MisReportesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_misreportes);
 
-        // Obtén la referencia de la tabla desde el layout
         TableLayout table = (TableLayout) findViewById(R.id.tableLayout);
 
-        // Aquí debes obtener los datos de los reportes. Por ahora, solo vamos a agregar un reporte de ejemplo.
-        String fecha = "01-01-2023";
-        String direccion = "Direccion 1";
+        String fecha = "30-10-2023";
+        String direccion = "Deodoro Roca 800, Cordoba";
 
-        // Crea una nueva fila
         TableRow row = new TableRow(this);
 
-        // Crea un TextView para la fecha
         TextView fechaView = new TextView(this);
         fechaView.setText(fecha);
         row.addView(fechaView);
 
-        // Crea un TextView para la dirección
         TextView direccionView = new TextView(this);
         direccionView.setText(direccion);
         row.addView(direccionView);
 
-        // Agrega un escuchador de clics a la fila
         row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -44,7 +38,6 @@ public class MisReportesActivity extends AppCompatActivity {
             }
         });
 
-        // Agrega la fila a la tabla
         table.addView(row);
     }
 

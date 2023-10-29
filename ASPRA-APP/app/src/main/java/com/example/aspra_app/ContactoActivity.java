@@ -22,7 +22,6 @@ public class ContactoActivity extends AppCompatActivity {
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         } else {
-// Si no hay una aplicación para manejar el intent, abre el navegador web.
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://ezmant.github.io/Proyecto_FullStack_ISPC/Maqueta/Vistas/index.html"));
             startActivity(browserIntent);
         }
