@@ -14,7 +14,7 @@ public class MisReportesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_misreportes);
+        setContentView(R.layout.activity_mis_reportes);
 
         TableLayout table = (TableLayout) findViewById(R.id.tableLayout);
 
