@@ -24,24 +24,65 @@
 
     <Button
         android:id="@+id/button_conf_edit_reporte"
-        android:layout_width="163dp"
+        android:layout_width="200dp"
         android:layout_height="58dp"
         android:layout_marginStart="124dp"
         android:layout_marginEnd="124dp"
+        android:layout_marginBottom="56dp"
         android:backgroundTint="@color/white"
         android:onClick="irReporte"
         android:text="@string/confirmar"
         android:textAlignment="center"
         android:textColor="@color/secondary"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:strokeColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintVertical_bias="1.0"
+        app:strokeColor="@color/secondary"
         tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="@string/Direccion"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/Descripcion"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spMotivo" />
+
+    <Spinner
+        android:id="@+id/spMotivo"
+        android:layout_width="241dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="48dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDireccion" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

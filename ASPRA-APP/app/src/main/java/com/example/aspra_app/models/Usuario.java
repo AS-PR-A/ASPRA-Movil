@@ -3,10 +3,11 @@ package com.example.aspra_app.models;
 public class Usuario {
 
     // Atributos
-    private String email; // En lugar de ID
     private String nombre;
-    private String contrasena;
-    private String telefono;
+    private String email;
+
+    private String phone;
+    private String pass;
 
     // Constructor
     public Usuario() {
@@ -14,21 +15,14 @@ public class Usuario {
     }
 
     // Constructor con parámetros
-    public Usuario(String email, String nombre, String telefono, String contrasena) {
-        this.email = email;
+    public Usuario(String nombre, String email, String phone, String pass) {
         this.nombre = nombre;
-        this.telefono = telefono;
-        this.contrasena = contrasena;
+        this.email = email;
+        this.phone = phone;
+        this.pass = pass;
     }
 
     // Métodos getter y setter para cada atributo
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
 
     public String getNombre() {
         return nombre;
@@ -38,19 +32,23 @@ public class Usuario {
         this.nombre = nombre;
     }
 
-    public String getTelefono() {
-        return telefono;
+    public String getEmail() {
+        return email;
     }
 
-    public void setTelefono(String email) {
-        this.telefono = telefono;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public String getContrasena() {
-        return contrasena;
+    public String getPhone() { return phone; }
+
+    public void setPhone(String phone) { this.phone = phone; }
+
+    public String getPass() {
+        return pass;
     }
 
-    public void setContrasena(String pass) {
-        this.contrasena = contrasena;
+    public void setPass(String pass) {
+        this.pass = pass;
     }
 }
