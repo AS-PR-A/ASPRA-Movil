@@ -68,3 +68,33 @@
 
 ### Base de Datos
 - SQLite
+
+
+
+- ### [Documento IEEE830](https://docs.google.com/document/d/1i23TJdPODDo3MueUA5d99c0pG-Jg3S37/edit)
+
+- ### [Wiki](https://github.com/JDGA1997/ASPRA-Movil/wiki)
+
+- ### [Tablero Kanban](https://github.com/users/JDGA1997/projects/8)
+
+- ### [Milestones](https://github.com/JDGA1997/ASPRA-Movil/milestones?state=closed)
+
+- ### [Issues](https://github.com/JDGA1997/ASPRA-Movil/issues?q=is%3Aissue+is%3Aclosed)
+
+- ### [Sprint 0](https://github.com/JDGA1997/ASPRA-Movil/wiki/2.-Sprint-0-%F0%9F%93%8B)
+
+- ### [Sprint 1](https://github.com/JDGA1997/ASPRA-Movil/wiki/3.-Sprint-1-%F0%9F%93%8B)
+
+- ### [Screenshots de las Activities, Codigo y Diseño de la aplicacion](https://docs.google.com/document/d/1rpbULV3tEkBwn7mrqJSCzCiZCDXphIIjR3W90PFxsbM/edit#heading=h.1x6v9n9ty2d3)
+
+- ### [Video Demo (Sprint 1)](https://drive.google.com/file/d/1OB2Xz9hEBXh4K4L_hONvse18AxoTITMO/view)
+
+- ### [Casos de Pruebas (Sprint 1)](https://docs.google.com/spreadsheets/d/1AUrAgLY13m-6oASn2H-t2ebHT0fogIdAVW-qHUgEhL4/edit#gid=0)
+
+- ### [Sprint 2](https://github.com/JDGA1997/ASPRA-Movil/wiki/4.-Sprint-2-%F0%9F%93%8B)
+
+- ### [Video Final](https://drive.google.com/drive/folders/1jVkqDwFDAVyYMDD9QFwSYDzqgK1RJEeO?usp=sharing)
+
+- ### [Accesibilidad (Sprint 2)](https://drive.google.com/drive/folders/1ioI7jPwlYL2z1oBmqeHrRqIHITWvhzDN?usp=sharing)
+
+- ### [Automatización con Selenium (Sprint 2)](https://drive.google.com/drive/folders/1OEcdxMQN4puUrSq2W1cykY0cXc_OhmgV?usp=sharing)
