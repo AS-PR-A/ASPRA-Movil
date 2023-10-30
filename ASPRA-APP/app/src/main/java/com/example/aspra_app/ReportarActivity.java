@@ -2,6 +2,9 @@ package com.example.aspra_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -41,15 +44,26 @@ public class ReportarActivity extends AppCompatActivity {
         button_reporte_enviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String motivo = spMotivo.getSelectedItem().toString();
-                databaseHelper.agregarReportes(edtdireccion.getText().toString(), motivo, edtdescripcion.getText().toString());
+                /* String motivo = spMotivo.getSelectedItem().toString();
+                databaseHelper.agregarReportes(edtdireccion.getText().toString(), motivo, edtdescripcion.getText().toString());*/
                 Toast.makeText(getApplicationContext(), "SE AGREGÓ CORRECTAMENTE", Toast.LENGTH_SHORT).show();
 
-                // Iniciar la actividad "ReporteExitosoActivity"
-                Intent intent = new Intent(ReportarActivity.this, ReporteExitosoActivity.class);
-                startActivity(intent);
-
+                irReporteExitoso(ReportarActivity.this);
             }
         });
+    }
+
+    public void irReporteExitoso(Context context) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setTitle("Reporte");
+        builder.setMessage("Enviando reporte...");
+        builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Intent intent = new Intent(context, ReporteExitosoActivity.class);
+                startActivity(intent);
+            }
+        });
+        builder.show();
     }
 }
