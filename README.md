@@ -71,6 +71,8 @@
 
 
 <br>
+
+
 - ### [Documento IEEE830](https://docs.google.com/document/d/1i23TJdPODDo3MueUA5d99c0pG-Jg3S37/edit)
 
 - ### [Wiki](https://github.com/JDGA1997/ASPRA-Movil/wiki)
