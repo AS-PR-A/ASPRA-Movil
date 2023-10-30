@@ -42,13 +42,11 @@ public class ReporteActivity extends AppCompatActivity {
                 .setCancelable(false)
                 .setPositiveButton("Sí", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        // Acciones a realizar si el usuario confirma
                         mostrarConfirmacion();
                     }
                 })
                 .setNegativeButton("No", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        // Acciones a realizar si el usuario cancela
                     }
                 });
         AlertDialog alert = builder.create();
@@ -61,7 +59,6 @@ public class ReporteActivity extends AppCompatActivity {
                 .setCancelable(false)
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        // Acciones a realizar al presionar OK
                         Intent intent = new Intent(ReporteActivity.this, MisReportesActivity.class);
                         startActivity(intent);
                     }

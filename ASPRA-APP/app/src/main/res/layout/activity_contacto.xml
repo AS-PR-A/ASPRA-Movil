@@ -39,6 +39,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.219" />
 
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -52,6 +53,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="0.045" />
+
 
     <TextView
         android:id="@+id/textView5"
@@ -81,6 +83,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:layout_constraintVertical_bias="0.26" />
+
 
     <TextView
         android:id="@+id/textView7"
@@ -114,6 +117,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7"
         app:layout_constraintVertical_bias="1.0" />
 
+
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
@@ -140,6 +144,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
         app:layout_constraintVertical_bias="1.0" />
+
 
     <TextView
         android:id="@+id/textView10"
