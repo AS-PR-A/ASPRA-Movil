@@ -71,4 +71,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_MOTIVOS);
         onCreate(db);
     }
+
+    public void agregarReportes(String direccion, String motivo, String descripcion){
+        SQLiteDatabase bd=getWritableDatabase();
+        if (bd!=null){
+            bd.execSQL("INSERT INTO REPORTES VALUES('"+direccion+"','"+motivo+"','"+descripcion+"')");
+            bd.close();
+        }
+    }
 }
