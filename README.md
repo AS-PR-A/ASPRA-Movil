@@ -12,11 +12,9 @@
 
 ##  😺💝🐶 ASPRA Móvil es una aplicación complementaria a nuestra página web, diseñada para dispositivos Android, la cual brinda la posibilidad de reportar animales perdidos y abandonados, contribuyendo así a su rescate. Además, permite realizar un seguimiento de los animales que han sido rescatados y compartir fotos o videos de ellos. Asimismo, cuenta con un sistema de inicio de sesión que facilita a los usuarios el proceso de reportar/encontrar animales. 🐶💝😺
 
-### 🚧 A lo largo de los siguientes meses, vas a encontrar más información sobre el proyecto a traves de este repositorio de GitHub.🚧
-
 <br>
 
-## ⏮️[Repositorio anterior (ASPRA WEB)](https://github.com/Ezmant/Proyecto_FullStack_ISPC)⏮️
+## ⏮️[Repositorio ASPRA WEB](https://github.com/Ezmant/Proyecto_FullStack_ISPC)⏮️
 
 <br>
 
@@ -37,7 +35,7 @@
 
 <br>
 
-## Construido 
+## Diseños finalizados
 
 ## Pagina Web 💻🖥️
 
@@ -69,9 +67,9 @@
 ### Base de Datos
 - SQLite
 
-
 <br>
 
+### Más de ASPRA
 
 - ### [Documento IEEE830](https://docs.google.com/document/d/1i23TJdPODDo3MueUA5d99c0pG-Jg3S37/edit)
 
