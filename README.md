@@ -1,4 +1,4 @@
-<p align="center"> <img width="460" height="300" src="https://github.com/JDGA1997/ASPRA-Movil/assets/105946879/ec1c8181-e2f6-499a-8785-8325308a7178"> </p>
+
 
 <br>
 
@@ -37,7 +37,9 @@
 
 <br>
 
-## Construido 💻🖥️
+## Construido 
+
+## Pagina Web 💻🖥️
 
 ### Front-End
 - HTML5
@@ -56,9 +58,7 @@
 
 <br>
 
-## En Construcción 🏗️🚧
-
-- Aplicacion movil para Android📱
+## Aplicacion movil para Android📱
 
 ### Lenguaje de programación
 - Java
