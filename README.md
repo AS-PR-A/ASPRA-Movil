@@ -20,15 +20,14 @@
 
 ## Integrantes  👩‍💻👨🏼‍💻
 
-| Nombre          | Apellido            | GitHub                                                | Sala |
-|-----------------|---------------------|-------------------------------------------------------|------|
-| Alejandro       | Moreno              | [MoCAlejandro](https://github.com/MoCAlejandro)       |   2  |
-| Axel Ezequiel   | Montivero           | [Ezmant](https://github.com/Ezmant)                   |   2  |
-| Fabiana Jazmin  |  Amato              | [AmatoJazmin](https://github.com/AmatoJazmin)         |   1  |
-| Federico Fabián |     Bellon          | [fedevricobellon](https://github.com/fedevricobellon) |   1  |
-| Juan Diego      | González Antoniazzi | [JDGA1997](https://github.com/JDGA1997)               |   1  |
-| Melanie         | Reyes               | [MelanieR24](https://github.com/MelanieR24)           |   2  |
-| Nicolás         |     Mattos          | [NicolasMattos03](https://github.com/NicolasMattos03) |   2  |
+| Nombre          | Apellido            | GitHub                                                | Comision |       Rol       |
+|-----------------|---------------------|-------------------------------------------------------|----------|-----------------|
+| Juan Diego      | González Antoniazzi | [JDGA1997](https://github.com/JDGA1997)               |   2      |  Scrum Master   |
+| Axel Ezequiel   | Montivero           | [Ezmant](https://github.com/Ezmant)                   |   2      |    Developer    |
+| Fabiana Jazmin  |  Amato              | [AmatoJazmin](https://github.com/AmatoJazmin)         |   1      |    Developer    |
+| Nicolás         | Mattos              | [NicolasMattos03](https://github.com/NicolasMattos03) |   2      |    Developer    |
+| Melanie         | Reyes               | [MelanieR24](https://github.com/MelanieR24)           |   3      |    Developer    |
+| Alejandro       |     Moreno          | [MoCAlejandro](https://github.com/MoCAlejandro)       |   2      |    Developer    |
 
 
 
