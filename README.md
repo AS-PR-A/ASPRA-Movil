@@ -14,7 +14,7 @@
 
 <br>
 
-## ⏮️[Repositorio ASPRA WEB](https://github.com/Ezmant/Proyecto_FullStack_ISPC)⏮️
+## ⏮️[Repositorio ASPRA WEB](https://github.com/AS-PR-A/ASPRA-Web)⏮️
 
 <br>
 
