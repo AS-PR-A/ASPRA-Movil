@@ -6,15 +6,11 @@
 <br></br>
 
 # 📱 ASPRA Movil 📱
-![imagen](https://github.com/JDGA1997/ASPRA-Movil/assets/105946879/e1aedf58-d0d0-49da-8b61-d08e8a653fb6)
+![imagen](https://raw.githubusercontent.com/AS-PR-A/ASPRA-Web/main/Frontend/animalesCommerce/src/assets/img/ASPRA.png)
 
 
 
 ##  😺💝🐶 ASPRA Móvil es una aplicación complementaria a nuestra página web, diseñada para dispositivos Android, la cual brinda la posibilidad de reportar animales perdidos y abandonados, contribuyendo así a su rescate. Además, permite realizar un seguimiento de los animales que han sido rescatados y compartir fotos o videos de ellos. Asimismo, cuenta con un sistema de inicio de sesión que facilita a los usuarios el proceso de reportar/encontrar animales. 🐶💝😺
-
-<br>
-
-## ⏮️[Repositorio ASPRA WEB](https://github.com/AS-PR-A/ASPRA-Web)⏮️
 
 <br>
 
@@ -29,41 +25,20 @@
 | Melanie         | Reyes               | [MelanieR24](https://github.com/MelanieR24)           |   3      |    Developer    |
 | Alejandro       |     Moreno          | [MoCAlejandro](https://github.com/MoCAlejandro)       |   2      |    Developer    |
 
-
-
-
-<br>
-
-## Diseños finalizados
-
-## Pagina Web 💻🖥️
-
-### Front-End
-- HTML5
-- CSS3
-- Javascript
-- Bootstrap
-- Angular
-
-### Back-End
-- Python para arquitectura MVC y POO.
-- Django
-- Typescript
-
-### Base de Datos
-- MySQL
-
 <br>
 
 ## Aplicacion movil para Android📱
 
-### Lenguaje de programación
+### Lenguaje de programación 📒
+
 - Java
 
-### IDE a  Utilizar
+### Back-End 💻
+
 - Android Studio
 
-### Base de Datos
+### Base de Datos 📚
+
 - SQLite
 
 <br>
@@ -97,3 +72,5 @@
 - ### [Accesibilidad (Sprint 2)](https://drive.google.com/drive/folders/1ioI7jPwlYL2z1oBmqeHrRqIHITWvhzDN?usp=sharing)
 
 - ### [Automatización con Selenium (Sprint 2)](https://drive.google.com/drive/folders/1OEcdxMQN4puUrSq2W1cykY0cXc_OhmgV?usp=sharing)
+
+- ### [ASPRA WEB](https://github.com/AS-PR-A/ASPRA-Web)
