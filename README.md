@@ -10,7 +10,7 @@
 
 
 
-##  😺💝🐶 ASPRA Móvil es una aplicación complementaria a nuestra página web, diseñada para dispositivos Android, la cual brinda la posibilidad de reportar animales perdidos y abandonados, contribuyendo así a su rescate. Además, permite realizar un seguimiento de los animales que han sido rescatados y compartir fotos o videos de ellos. Asimismo, cuenta con un sistema de inicio de sesión que facilita a los usuarios el proceso de reportar/encontrar animales. 🐶💝😺
+##  😺💝🐶 ASPRA Móvil es una aplicación complementaria a nuestra página web, diseñada para dispositivos Android, la cual brinda la posibilidad de reportar animales perdidos y abandonados, contribuyendo así a su rescate. Además, permite realizar un seguimiento de los animales que han sido rescatados y compartir fotos o videos de ellos. Asimismo, cuenta con un sistema de inicio de sesión que facilita a los usuarios el proceso de reportar/encontrar animales, y también la posibilidad de realizar donaciones. 🐶💝😺
 
 <br>
 
