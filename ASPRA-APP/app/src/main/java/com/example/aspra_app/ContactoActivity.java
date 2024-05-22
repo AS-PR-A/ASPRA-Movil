@@ -14,7 +14,10 @@ public class ContactoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacto);
+
     }
+
+
 
     public void openWebsite(View view) {
         Uri webpage = Uri.parse("https://ezmant.github.io/Proyecto_FullStack_ISPC/Maqueta/Vistas/index.html");
