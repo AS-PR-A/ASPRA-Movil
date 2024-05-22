@@ -3529,6 +3529,9 @@ id textView6
 id textView7
 id textView8
 id textView9
+id textViewEmail
+id textViewPhone
+id textViewUsername
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

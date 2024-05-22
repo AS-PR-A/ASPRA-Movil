@@ -3528,6 +3528,9 @@ int id textView6 0x7f0901f8
 int id textView7 0x7f0901f9
 int id textView8 0x7f0901fa
 int id textView9 0x7f0901fb
+int id textViewEmail 0x7f09022e
+int id textViewPhone 0x7f09022f
+int id textViewUsername 0x7f090230
 int id text_input_end_icon 0x7f0901fc
 int id text_input_error_icon 0x7f0901fd
 int id text_input_start_icon 0x7f0901fe

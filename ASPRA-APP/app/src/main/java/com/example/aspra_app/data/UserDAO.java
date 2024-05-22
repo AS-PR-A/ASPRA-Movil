@@ -30,15 +30,13 @@ public class UserDAO {
     public Usuario getUser(String email) {
         SQLiteDatabase database = dbHelper.getReadableDatabase();
         Usuario usuario = new Usuario();
-        String[] findColumns = {"id","nombre", "email", "password","telefono"};
-        Cursor cursor = database.query("Usuarios", findColumns,  " = ?",
+        String[] findColumns = {"nombre", "email" ,"telefono"};
+        Cursor cursor = database.query("Usuarios", findColumns,  "email = ?",
                 new String[]{email}, null, null, null);
         if (cursor != null && cursor.moveToFirst()) {
-            usuario.setId(cursor.getLong(0));
-            usuario.setNombre(cursor.getString(1));
-            usuario.setEmail(cursor.getString(2));
-            usuario.setPass(cursor.getString(3));
-            usuario.setTelefono(cursor.getString(4));
+            usuario.setNombre(cursor.getString(0));
+            usuario.setEmail(cursor.getString(1));
+            usuario.setTelefono(cursor.getString(2));
         }
 
         if (cursor != null) {

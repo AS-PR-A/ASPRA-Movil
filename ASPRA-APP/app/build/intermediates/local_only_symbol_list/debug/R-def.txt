@@ -86,6 +86,9 @@ id textView6
 id textView7
 id textView8
 id textView9
+id textViewEmail
+id textViewPhone
+id textViewUsername
 id tvMotivo
 id videoView1
 layout activity_contacto
