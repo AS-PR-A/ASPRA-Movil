@@ -3,27 +3,41 @@ package com.example.aspra_app.models;
 public class Usuario {
 
     // Atributos
+    private long id; // El ID de la BD
     private String nombre;
     private String email;
-
-    private String phone;
     private String pass;
+    private String telefono;
 
-    // Constructor
+    // Constructor vacio
     public Usuario() {
-        // Constructor vacío
+
     }
 
-    // Constructor con parámetros
-    public Usuario(String nombre, String email, String phone, String pass) {
+    // Constructor con parametros
+    public Usuario(String nombre, String email, String pass, String telefono) {
         this.nombre = nombre;
         this.email = email;
-        this.phone = phone;
         this.pass = pass;
+        this.telefono = telefono;
+    }
+    // Constructor para cuando instanciamos desde la BD
+    public Usuario(long id, String nombre, String email, String pass, String telefono) {
+        this.id = id;
+        this.nombre = nombre;
+        this.email = email;
+        this.pass = pass;
+        this.telefono = telefono;
     }
 
     // Métodos getter y setter para cada atributo
+    public long getId() {
+        return id;
+    }
 
+    public void setId(long id) {
+        this.id = id;
+    }
     public String getNombre() {
         return nombre;
     }
@@ -40,10 +54,6 @@ public class Usuario {
         this.email = email;
     }
 
-    public String getPhone() { return phone; }
-
-    public void setPhone(String phone) { this.phone = phone; }
-
     public String getPass() {
         return pass;
     }
@@ -51,4 +61,8 @@ public class Usuario {
     public void setPass(String pass) {
         this.pass = pass;
     }
+
+    public String getTelefono() { return telefono; }
+
+    public void setTelefono(String telefono) { this.telefono = telefono; }
 }
