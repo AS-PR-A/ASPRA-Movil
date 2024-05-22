@@ -46,7 +46,7 @@ public class ReportarActivity extends AppCompatActivity {
             public void onClick(View view) {
                 /* String motivo = spMotivo.getSelectedItem().toString();
                 databaseHelper.agregarReportes(edtdireccion.getText().toString(), motivo, edtdescripcion.getText().toString());*/
-                Toast.makeText(getApplicationContext(), "SE AGREGÓ CORRECTAMENTE", Toast.LENGTH_SHORT).show();
+
 
                 irReporteExitoso(ReportarActivity.this);
             }
@@ -55,8 +55,8 @@ public class ReportarActivity extends AppCompatActivity {
 
     public void irReporteExitoso(Context context) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle("Reporte");
-        builder.setMessage("Enviando reporte...");
+        builder.setTitle("Confirmacion de Reporte");
+        builder.setMessage("Pulse Aceptar para confirmar su reporte");
         builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {

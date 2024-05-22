@@ -7,18 +7,74 @@
     android:background="@color/secondary"
     tools:context=".EditarReporteActivity">
 
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="294dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="472dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/primary"
+        android:ems="10"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Descripción"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:theme="@style/Base.Theme.ASPRAAPP"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="294dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/primary"
+        android:ems="10"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Dirección"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:theme="@style/Base.Theme.ASPRAAPP"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="77dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039"
+        app:srcCompat="@drawable/icono2" />
+
     <TextView
         android:id="@+id/textView16"
         android:layout_width="342dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:text="@string/modificar"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/barlow_normal"
+        android:text="Editar Reporte"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="48sp"
         android:textStyle="bold"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -30,6 +86,7 @@
         android:layout_marginEnd="124dp"
         android:layout_marginBottom="56dp"
         android:backgroundTint="@color/white"
+        android:fontFamily="@font/barlow_normal"
         android:onClick="irReporte"
         android:text="@string/confirmar"
         android:textAlignment="center"
@@ -39,50 +96,22 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText"
-        app:layout_constraintVertical_bias="1.0"
         app:strokeColor="@color/secondary"
         tools:ignore="MissingConstraints" />
 
-    <EditText
-        android:id="@+id/etDireccion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
-        android:ems="10"
-        android:inputType="textPostalAddress"
-        android:text="@string/Direccion"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
-
-    <EditText
-        android:id="@+id/etDescripcion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="@string/Descripcion"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spMotivo" />
-
     <Spinner
         android:id="@+id/spMotivo"
-        android:layout_width="241dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="48dp"
+        style="@style/Widget.AppCompat.Spinner"
+        android:layout_width="294dp"
+        android:layout_height="58dp"
+        android:background="@color/primary"
         android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/button_conf_edit_reporte"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etDireccion" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2"
+        app:layout_constraintVertical_bias="0.186" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
