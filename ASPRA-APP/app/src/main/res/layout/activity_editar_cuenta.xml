@@ -19,24 +19,79 @@
         app:layout_constraintVertical_bias="0.039"
         app:srcCompat="@drawable/icono2" />
 
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:fontFamily="@font/barlow_normal"
+        android:text="Editar Cuenta"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/editName"
         android:layout_width="294dp"
         android:layout_height="56dp"
         android:layout_marginBottom="40dp"
         android:background="@color/primary"
         android:ems="10"
         android:fontFamily="@font/comfortaa"
-        android:hint="Nombre"
+        android:hint="Nombre de ususario"
         android:inputType="text"
         android:textAlignment="center"
         android:textSize="20sp"
         android:theme="@style/Base.Theme.ASPRAAPP"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintBottom_toTopOf="@+id/editPass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="294dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="320dp"
+        android:background="@color/primary"
+        android:ems="10"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editPhone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="294dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="396dp"
+        android:background="@color/primary"
+        android:ems="10"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Teléfono"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_conf_edit_cuenta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442" />
 
     <Button
         android:id="@+id/button_conf_edit_cuenta"
@@ -74,61 +129,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
-
-    <EditText
-        android:id="@+id/editTextPhone2"
-        android:layout_width="294dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="396dp"
-        android:background="@color/primary"
-        android:ems="10"
-        android:fontFamily="@font/comfortaa"
-        android:hint="Teléfono"
-        android:inputType="phone"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button_conf_edit_cuenta"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442" />
-
-    <EditText
-        android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="294dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="320dp"
-        android:background="@color/primary"
-        android:ems="10"
-        android:fontFamily="@font/comfortaa"
-        android:hint="Correo Electronico"
-        android:inputType="textEmailAddress"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextPhone2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.186" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="342dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
-        android:fontFamily="@font/barlow_normal"
-        android:text="Editar Cuenta"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="48sp"
-        android:textStyle="bold"
-        android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

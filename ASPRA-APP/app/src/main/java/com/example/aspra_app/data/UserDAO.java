@@ -50,7 +50,6 @@ public class UserDAO {
         SQLiteDatabase database = dbHelper.getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put("nombre", usuario.getNombre());
-        values.put("email", usuario.getEmail());
         values.put("password", usuario.getPass());
         values.put("telefono", usuario.getTelefono());
         return database.update("Usuarios", values,

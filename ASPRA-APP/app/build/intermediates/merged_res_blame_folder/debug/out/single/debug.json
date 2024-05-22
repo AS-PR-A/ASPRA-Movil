@@ -108,10 +108,6 @@
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\layout\\activity_editar_reporte.xml"
     },
     {
-        "merged": "com.example.aspra_app-merged_res-28:/layout_activity_mi_cuenta.xml.flat",
-        "source": "com.example.aspra_app-main-30:/layout/activity_mi_cuenta.xml"
-    },
-    {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxhdpi_ic_logo_launcher.webp.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xxhdpi\\ic_logo_launcher.webp"
     },
@@ -202,6 +198,10 @@
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_web.png.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\web.png"
+    },
+    {
+        "merged": "com.example.aspra_app-merged_res-28:/layout_activity_editar_cuenta.xml.flat",
+        "source": "com.example.aspra_app-main-30:/layout/activity_editar_cuenta.xml"
     },
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_ic_launcher_background.xml.flat",

@@ -39,12 +39,13 @@ id button_login_registrarse
 id button_login_reportar
 id button_registrarse_confirmar
 id button_reporte_enviar
+id editName
+id editPass
+id editPhone
 id editTextConfirmPassword
 id editTextEmail
 id editTextPassword
 id editTextPhone
-id editTextPhone2
-id editTextText
 id editTextText2
 id editTextText4
 id editTextTextEmailAddress

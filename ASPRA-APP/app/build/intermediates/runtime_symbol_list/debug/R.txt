@@ -3207,12 +3207,13 @@ int id easeInOut 0x7f0900b7
 int id easeOut 0x7f0900b8
 int id east 0x7f0900b9
 int id edge 0x7f0900ba
+int id editName 0x7f090232
+int id editPass 0x7f090234
+int id editPhone 0x7f090233
 int id editTextConfirmPassword 0x7f0900bb
 int id editTextEmail 0x7f0900bc
 int id editTextPassword 0x7f0900bd
 int id editTextPhone 0x7f0900be
-int id editTextPhone2 0x7f0900bf
-int id editTextText 0x7f0900c0
 int id editTextText2 0x7f0900c1
 int id editTextText4 0x7f0900c2
 int id editTextTextEmailAddress 0x7f0900c3

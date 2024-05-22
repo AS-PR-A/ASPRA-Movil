@@ -3208,12 +3208,13 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editName
+id editPass
+id editPhone
 id editTextConfirmPassword
 id editTextEmail
 id editTextPassword
 id editTextPhone
-id editTextPhone2
-id editTextText
 id editTextText2
 id editTextText4
 id editTextTextEmailAddress
