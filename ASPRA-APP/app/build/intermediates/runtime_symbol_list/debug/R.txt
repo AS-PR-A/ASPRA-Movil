@@ -3131,8 +3131,8 @@ int id button_home_miCuenta 0x7f09006b
 int id button_home_misReportes 0x7f09006c
 int id button_home_multimedia 0x7f09006d
 int id button_home_reportar 0x7f09006e
+int id button_login 0x7f090235
 int id button_login_registrarse 0x7f09006f
-int id button_login_reportar 0x7f090070
 int id button_registrarse_confirmar 0x7f090071
 int id button_reporte_enviar 0x7f090072
 int id cache_measures 0x7f090073

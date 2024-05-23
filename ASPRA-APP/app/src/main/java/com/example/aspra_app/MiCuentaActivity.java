@@ -27,12 +27,15 @@ public class MiCuentaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mi_cuenta);
+
+        String emailUser = LoginActivity.userLogged;
+
         textViewUsername = findViewById(R.id.textViewUsername);
         textViewEmail = findViewById(R.id.textViewEmail);
         textViewPhone = findViewById(R.id.textViewPhone);
         buttonEliminar = findViewById(R.id.button_eliminar_cuenta);
         userDAO = new UserDAO(this);
-        usuario = userDAO.getUser("usuario4@gmail.com");
+        usuario = userDAO.getUser(emailUser);
 
         textViewUsername.setText(usuario.getNombre());
         textViewEmail.setText(usuario.getEmail());

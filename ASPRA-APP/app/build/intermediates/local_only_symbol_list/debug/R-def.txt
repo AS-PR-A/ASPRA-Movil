@@ -35,8 +35,8 @@ id button_home_miCuenta
 id button_home_misReportes
 id button_home_multimedia
 id button_home_reportar
+id button_login
 id button_login_registrarse
-id button_login_reportar
 id button_registrarse_confirmar
 id button_reporte_enviar
 id editName
