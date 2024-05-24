@@ -13,7 +13,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
-
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import com.example.aspra_app.data.ReporteDAO;
+import com.example.aspra_app.models.Reporte;
 import com.example.aspra_app.data.DatabaseHelper;
 
 public class ReportarActivity extends AppCompatActivity {
@@ -22,10 +26,15 @@ public class ReportarActivity extends AppCompatActivity {
     Button button_reporte_enviar;
     Spinner spMotivo;
 
+    private ReporteDAO ReporteDAO;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reportar);
+        //Toma la fecha para crear el reporte
+
+
 
         spMotivo = findViewById(R.id.spMotivo);
 
@@ -40,17 +49,39 @@ public class ReportarActivity extends AppCompatActivity {
         button_reporte_enviar = findViewById(R.id.button_reporte_enviar);
 
         final DatabaseHelper databaseHelper = new DatabaseHelper(getApplicationContext());
+        ReporteDAO = new ReporteDAO(ReportarActivity.this);
 
         button_reporte_enviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                /* String motivo = spMotivo.getSelectedItem().toString();
-                databaseHelper.agregarReportes(edtdireccion.getText().toString(), motivo, edtdescripcion.getText().toString());*/
+                String motivo = spMotivo.toString();
+                String direccion = edtdireccion.getText().toString();
+                String descripcion = edtdescripcion.getText().toString();
+                String fecha = obtenerFechaActual();
 
+                // Validadores de datos
+
+                if ((motivo != null) && (direccion != null) && (descripcion != null))  {
+                    Reporte reporte = new Reporte(0 , fecha, motivo, direccion, descripcion, "");
+                    long result = ReporteDAO.addReport(reporte);
+                    if (result != -1) {
+                        Toast.makeText(ReportarActivity.this, "Reporte aprobado!", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(ReportarActivity.this, "Ha ocurrido un problema", Toast.LENGTH_SHORT).show();
+                    }
+                } else {
+                    Toast.makeText(ReportarActivity.this, "Los campos están vacíos", Toast.LENGTH_SHORT).show();
+                }
 
                 irReporteExitoso(ReportarActivity.this);
             }
         });
+        }
+    // Funcion para tomar la fecha
+    private String obtenerFechaActual() {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+        String fechaActual = sdf.format(new Date());
+        return fechaActual;
     }
 
     public void irReporteExitoso(Context context) {

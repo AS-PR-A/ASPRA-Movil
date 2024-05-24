@@ -7,11 +7,11 @@ import android.database.sqlite.SQLiteDatabase;
 
 import com.example.aspra_app.models.Reporte;
 
-public class RegistroDAO {
+public class ReporteDAO {
 
     private DatabaseHelper dbHelper;
 
-    public RegistroDAO(Context context) {
+    public ReporteDAO(Context context) {
         dbHelper = new DatabaseHelper(context);
     }
 
@@ -19,8 +19,18 @@ public class RegistroDAO {
 
     public long addReport(Reporte reporte) {
         SQLiteDatabase database = dbHelper.getWritableDatabase();
+
+        // Consultar el último ID utilizado en la tabla de reportes
+        String query = "SELECT MAX(id) FROM Reportes";
+        Cursor cursor = database.rawQuery(query, null);
+        long lastId = 0;
+        if (cursor != null && cursor.moveToFirst()) {
+            lastId = cursor.getLong(0);
+            cursor.close();
+        }
+        long newId = lastId + 1;
         ContentValues values = new ContentValues();
-        values.put("id", reporte.getId());
+        values.put("id", newId);
         values.put("fecha", reporte.getFecha());
         values.put("direccion", reporte.getDireccion());
         values.put("motivo", reporte.getMotivo());
