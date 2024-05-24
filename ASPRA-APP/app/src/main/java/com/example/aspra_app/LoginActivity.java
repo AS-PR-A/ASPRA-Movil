@@ -16,8 +16,7 @@ import com.example.aspra_app.data.Auth;
 
 public class LoginActivity extends AppCompatActivity {
 
-    public static String userLogged = "com.example.android.aspra_app.USER.LOGGED";
-
+    private static String userLogged = "";
     private EditText editEmail;
     private EditText editPass;
     private Auth auth;
@@ -39,15 +38,20 @@ public class LoginActivity extends AppCompatActivity {
             if (log){
                 Toast.makeText(LoginActivity.this, "Inicio aprobado!", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(this, MiCuentaActivity.class);
-                userLogged = email;
+                this.userLogged = email;
                 startActivity(intent);
             } else {
                 Toast.makeText(LoginActivity.this, "Datos incorrectos", Toast.LENGTH_SHORT).show();
             }
+        });
+    }
 
-    });
+    public String getUserLogged(){
+        return  userLogged;
+    }
 
-
+    public void setUserLogged(String email){
+        this.userLogged = email;
     }
 
     public void irReportar(View view) {

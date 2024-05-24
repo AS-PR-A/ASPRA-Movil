@@ -14,12 +14,25 @@ import com.example.aspra_app.data.DatabaseHelper;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button buttonDB;
-
+    private Button buttonLogin;
+    private LoginActivity userlogged = new LoginActivity();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        buttonLogin = findViewById(R.id.button_home_login);
+
+        if(userlogged.getUserLogged() == ""){
+            Button buttonMiCuenta = findViewById(R.id.button_home_miCuenta);
+            Button buttonReportar = findViewById(R.id.button_home_reportar);
+            Button buttonMisReportes = findViewById(R.id.button_home_misReportes);
+            Button buttonLogout = findViewById(R.id.button_logout);
+            buttonReportar.setVisibility(View.GONE);
+            buttonMiCuenta.setVisibility(View.GONE);
+            buttonMisReportes.setVisibility(View.GONE);
+            buttonLogout.setVisibility(View.GONE);
+        } else buttonLogin.setVisibility(View.INVISIBLE);
     }
 
     public void irLogin(View view) {
@@ -36,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
        startActivity(intent);
     }
 
-
     public void openWebsite(View view) {
         Uri webpage = Uri.parse("https://link.mercadopago.com.ar/aspra");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
@@ -48,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
     public void irMisReportes(View view) {
         Intent intent = new Intent(this, MisReportesActivity.class);
         startActivity(intent);
@@ -57,5 +68,11 @@ public class MainActivity extends AppCompatActivity {
     public void irMiCuenta(View view) {
         Intent intent = new Intent(this, MiCuentaActivity.class);
         startActivity(intent);
+    }
+
+    public void logout(View view){
+        userlogged.setUserLogged("");
+        finish();
+        startActivity(getIntent());
     }
 }

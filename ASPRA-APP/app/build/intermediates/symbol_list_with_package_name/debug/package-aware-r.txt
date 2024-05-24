@@ -3134,6 +3134,7 @@ id button_home_multimedia
 id button_home_reportar
 id button_login
 id button_login_registrarse
+id button_logout
 id button_registrarse_confirmar
 id button_reporte_enviar
 id cache_measures
