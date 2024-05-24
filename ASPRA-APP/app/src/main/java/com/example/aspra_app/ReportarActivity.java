@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -54,23 +55,23 @@ public class ReportarActivity extends AppCompatActivity {
         button_reporte_enviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String motivo = spMotivo.toString();
+                String motivo = spMotivo.getSelectedItem().toString();
                 String direccion = edtdireccion.getText().toString();
                 String descripcion = edtdescripcion.getText().toString();
                 String fecha = obtenerFechaActual();
 
                 // Validadores de datos
 
-                if ((motivo != null) && (direccion != null) && (descripcion != null))  {
-                    Reporte reporte = new Reporte(0 , fecha, motivo, direccion, descripcion, "");
-                    long result = ReporteDAO.addReport(reporte);
-                    if (result != -1) {
-                        Toast.makeText(ReportarActivity.this, "Reporte aprobado!", Toast.LENGTH_SHORT).show();
-                    } else {
-                        Toast.makeText(ReportarActivity.this, "Ha ocurrido un problema", Toast.LENGTH_SHORT).show();
-                    }
-                } else {
+                if (TextUtils.isEmpty(motivo) || TextUtils.isEmpty(direccion) || TextUtils.isEmpty(descripcion)) {
                     Toast.makeText(ReportarActivity.this, "Los campos están vacíos", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                Reporte reporte = new Reporte(0, fecha, direccion, motivo, descripcion, "");
+                long result = ReporteDAO.addReport(reporte);
+                if (result != -1) {
+                    Toast.makeText(ReportarActivity.this, "Reporte aprobado!", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(ReportarActivity.this, "Ha ocurrido un problema", Toast.LENGTH_SHORT).show();
                 }
 
                 irReporteExitoso(ReportarActivity.this);
@@ -83,18 +84,9 @@ public class ReportarActivity extends AppCompatActivity {
         String fechaActual = sdf.format(new Date());
         return fechaActual;
     }
-
+    // Funcion para cambiar la pantalla
     public void irReporteExitoso(Context context) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle("Confirmacion de Reporte");
-        builder.setMessage("Pulse Aceptar para confirmar su reporte");
-        builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                Intent intent = new Intent(context, ReporteExitosoActivity.class);
-                startActivity(intent);
-            }
-        });
-        builder.show();
+        Intent intent = new Intent(context, ReporteExitosoActivity.class);
+        startActivity(intent);
     }
 }
