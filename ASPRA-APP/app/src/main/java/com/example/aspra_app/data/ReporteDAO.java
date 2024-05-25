@@ -2,10 +2,14 @@ package com.example.aspra_app.data;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.example.aspra_app.models.Reporte;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ReporteDAO {
 
@@ -41,24 +45,27 @@ public class ReporteDAO {
 
     // Buscar reporte por usuario
 
-    public Reporte getReporte(Long id) {
+    public List<Reporte> getReporte(String mail) {
         SQLiteDatabase database = dbHelper.getReadableDatabase();
-        Reporte reporte = new Reporte();
-        String[] findColumns = {"id", "fecha", "direccion" ,"motivo", "descripcion"};
-        Cursor cursor = database.query("Reportes", findColumns,  "id = ?",
-                new String[]{String.valueOf(id)}, null, null, null);
+        List<Reporte> reportes = new ArrayList<>();
+        String[] findColumns = {"id", "fecha", "direccion", "motivo", "descripcion"};
+        Cursor cursor = database.query("Reportes", findColumns, "usuario = ?",
+                new String[]{mail}, null, null, null);
         if (cursor != null && cursor.moveToFirst()) {
-            reporte.setId(cursor.getLong(0));
-            reporte.setFecha(cursor.getString(1));
-            reporte.setDireccion(cursor.getString(2));
-            reporte.setMotivo(cursor.getString(3));
-            reporte.setDescripcion(cursor.getString(4));
+            do {
+                Reporte reporte = new Reporte();
+                reporte.setId(cursor.getLong(0));
+                reporte.setFecha(cursor.getString(1));
+                reporte.setDireccion(cursor.getString(2));
+                reporte.setMotivo(cursor.getString(3));
+                reporte.setDescripcion(cursor.getString(4));
+                reportes.add(reporte);
+            } while (cursor.moveToNext());
         }
-
         if (cursor != null) {
             cursor.close();
         }
-        return reporte;
+        return reportes;
     }
 
     // Actualizar un reporte

@@ -30,7 +30,7 @@ public class MiCuentaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mi_cuenta);
 
-        String emailUser = userlogged.getUserLogged();
+        String emailUser = userlogged.getUserLogged(this);
 
         textViewUsername = findViewById(R.id.textViewUsername);
         textViewEmail = findViewById(R.id.textViewEmail);

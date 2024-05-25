@@ -1,48 +1,59 @@
 package com.example.aspra_app;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import com.example.aspra_app.data.ReporteDAO;
+import com.example.aspra_app.models.Reporte;
+import java.util.List;
 
 public class MisReportesActivity extends AppCompatActivity {
+
+    private ReporteDAO reporteDAO;
+    private String userEmail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mis_reportes);
 
-        TableLayout table = (TableLayout) findViewById(R.id.tableLayout);
+        userEmail = LoginActivity.getUserLogged(this);
 
-        String fecha = "30-10-2023";
-        String direccion = "Deodoro Roca 800, Cordoba";
+        reporteDAO = new ReporteDAO(this);
 
-        TableRow row = new TableRow(this);
+        TableLayout table = findViewById(R.id.tableLayout);
 
-        TextView fechaView = new TextView(this);
-        fechaView.setText(fecha);
-        row.addView(fechaView);
 
-        TextView direccionView = new TextView(this);
-        direccionView.setText(direccion);
-        row.addView(direccionView);
+        List<Reporte> reportes = reporteDAO.getReporte(userEmail);
 
-        row.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                irReporte(v);
-            }
-        });
+        for (Reporte reporte : reportes) {
+            TableRow row = new TableRow(this);
 
-        table.addView(row);
+            TextView fechaView = new TextView(this);
+            fechaView.setText(reporte.getFecha());
+            row.addView(fechaView);
+
+            TextView direccionView = new TextView(this);
+            direccionView.setText(reporte.getDireccion());
+            row.addView(direccionView);
+
+            row.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    irReporte((int) reporte.getId());
+                }
+            });
+
+            table.addView(row);
+        }
     }
 
-    public void irReporte(View view) {
+    public void irReporte(int reporteId) {
         Intent intent = new Intent(this, ReporteActivity.class);
+        intent.putExtra("reporteId", reporteId);
         startActivity(intent);
     }
 }
