@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.example.aspra_app.data.ReporteDAO;
 import com.example.aspra_app.models.Reporte;
 import java.util.List;
@@ -43,7 +45,7 @@ public class MisReportesActivity extends AppCompatActivity {
             row.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    irReporte((int) reporte.getId());
+                    irReporte(reporte.getId());
                 }
             });
 
@@ -51,9 +53,13 @@ public class MisReportesActivity extends AppCompatActivity {
         }
     }
 
-    public void irReporte(int reporteId) {
-        Intent intent = new Intent(this, ReporteActivity.class);
-        intent.putExtra("reporteId", reporteId);
-        startActivity(intent);
+    public void irReporte(long reporteId) {
+        try {
+            Intent intent = new Intent(this, ReporteActivity.class);
+            intent.putExtra("reporteId", reporteId);
+            startActivity(intent);
+        } catch (Exception e) {
+            Toast.makeText(this, "Error al abrir el reporte", Toast.LENGTH_SHORT).show();
+        }
     }
 }

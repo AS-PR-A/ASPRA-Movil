@@ -24,7 +24,6 @@ public class ReporteDAO {
     public long addReport(Reporte reporte) {
         SQLiteDatabase database = dbHelper.getWritableDatabase();
 
-        // Consultar el último ID utilizado en la tabla de reportes
         String query = "SELECT MAX(id) FROM Reportes";
         Cursor cursor = database.rawQuery(query, null);
         long lastId = 0;
@@ -43,7 +42,6 @@ public class ReporteDAO {
         return database.insert("Reportes", null, values);
     }
 
-    // Buscar reporte por usuario
 
     public List<Reporte> getReporte(String mail) {
         SQLiteDatabase database = dbHelper.getReadableDatabase();
@@ -67,8 +65,48 @@ public class ReporteDAO {
         }
         return reportes;
     }
+    // Buscar reporte por ID
+    public Reporte getReporteById(Long id) {
+        SQLiteDatabase database = dbHelper.getReadableDatabase();
+        Reporte reporte = null;
+        Cursor cursor = database.query(
+                "Reportes",
+                new String[]{"id", "fecha", "direccion", "motivo", "descripcion", "usuario"},
+                "id = ?",
+                new String[]{String.valueOf(id)},
+                null,
+                null,
+                null
+        );
+        if (cursor != null) {
+            String[] columnNames = cursor.getColumnNames();
+            for (String columnName : columnNames) {
+            }
 
-    // Actualizar un reporte
+            if (cursor.moveToFirst()) {
+                int idIndex = cursor.getColumnIndex("id");
+                int fechaIndex = cursor.getColumnIndex("fecha");
+                int direccionIndex = cursor.getColumnIndex("direccion");
+                int motivoIndex = cursor.getColumnIndex("motivo");
+                int descripcionIndex = cursor.getColumnIndex("descripcion");
+                int usuarioIndex = cursor.getColumnIndex("usuario");
+
+                if (idIndex == -1 || fechaIndex == -1 || direccionIndex == -1 || motivoIndex == -1 || descripcionIndex == -1 || usuarioIndex == -1) {
+                } else {
+                    reporte = new Reporte();
+                    reporte.setId(cursor.getLong(idIndex));
+                    reporte.setFecha(cursor.getString(fechaIndex));
+                    reporte.setDireccion(cursor.getString(direccionIndex));
+                    reporte.setMotivo(cursor.getString(motivoIndex));
+                    reporte.setDescripcion(cursor.getString(descripcionIndex));
+                    reporte.setUsuario(cursor.getString(usuarioIndex));
+                }
+            }
+            cursor.close();
+        }
+        database.close();
+        return reporte;
+    }
 
     public int updateReport(Reporte reporte) {
         SQLiteDatabase database = dbHelper.getWritableDatabase();
@@ -81,8 +119,6 @@ public class ReporteDAO {
         return database.update("Reportes", values,
                 "id = ?", new String[]{String.valueOf(reporte.getId())});
     }
-
-    // Eliminar un reporte
 
     public void deleteReport(Long id) {
         SQLiteDatabase database = dbHelper.getWritableDatabase();
