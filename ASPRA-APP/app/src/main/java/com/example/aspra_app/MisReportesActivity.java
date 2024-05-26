@@ -64,4 +64,9 @@ public class MisReportesActivity extends AppCompatActivity {
             Toast.makeText(this, "Error al abrir el reporte", Toast.LENGTH_SHORT).show();
         }
     }
+
+    public void irReportar(View view) {
+        Intent intent = new Intent(this, ReportarActivity.class);
+        startActivity(intent);
+    }
 }
