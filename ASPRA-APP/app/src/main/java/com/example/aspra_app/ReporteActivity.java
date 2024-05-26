@@ -14,6 +14,7 @@ import com.example.aspra_app.models.Reporte;
 public class ReporteActivity extends AppCompatActivity {
     private TextView textViewDireccion;
     private TextView textViewMotivo;
+    private TextView textViewDescripcion;
     private ReporteDAO reporteDAO;
     private Reporte reporte;
     private long reporteId;
@@ -25,10 +26,12 @@ public class ReporteActivity extends AppCompatActivity {
         reporteId = getIntent().getLongExtra("reporteId", -1);
         textViewDireccion = findViewById(R.id.textViewDireccion);
         textViewMotivo = findViewById(R.id.textViewMotivo);
+        textViewDescripcion = findViewById(R.id.textViewDescripcion);
         reporteDAO = new ReporteDAO(this);
         reporte = reporteDAO.getReporteById(reporteId);
         textViewDireccion.setText(reporte.getDireccion());
         textViewMotivo.setText(reporte.getMotivo());
+        textViewDescripcion.setText(reporte.getDescripcion());
     }
 
     public void irEditarReporte(View view) {

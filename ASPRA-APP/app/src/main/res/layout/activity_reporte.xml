@@ -164,4 +164,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView20"
         app:layout_constraintVertical_bias="0.233" />
+
+    <TextView
+        android:id="@+id/textViewDescripcion"
+        android:layout_width="343dp"
+        android:layout_height="18dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/button_editar_cuenta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="468dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

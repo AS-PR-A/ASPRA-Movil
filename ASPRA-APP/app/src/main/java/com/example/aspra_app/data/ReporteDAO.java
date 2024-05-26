@@ -111,7 +111,6 @@ public class ReporteDAO {
     public int updateReport(Reporte reporte) {
         SQLiteDatabase database = dbHelper.getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put("fecha", reporte.getFecha());
         values.put("direccion", reporte.getDireccion());
         values.put("motivo", reporte.getMotivo());
         values.put("descripcion", reporte.getDescripcion());
