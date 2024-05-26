@@ -11,7 +11,7 @@
         android:id="@+id/textView8"
         android:layout_width="186dp"
         android:layout_height="60dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="92dp"
         android:background="@color/secondary"
         android:fontFamily="@font/barlow_normal"
         android:text="Registro"
@@ -23,92 +23,6 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="77dp"
-        android:layout_height="65dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.039"
-        app:srcCompat="@drawable/icono" />
-
-    <EditText
-        android:id="@+id/editTextUsername"
-        android:layout_width="340dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="260dp"
-        android:fontFamily="@font/comfortaa"
-        android:hint="Nombre de usuario"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextEmail"
-        android:layout_width="340dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="24dp"
-        android:fontFamily="@font/comfortaa"
-        android:hint="Correo electrónico"
-        android:inputType="textEmailAddress"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextUsername" />
-
-    <EditText
-        android:id="@+id/editTextPhone"
-        android:layout_width="340dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/comfortaa"
-        android:hint="Teléfono"
-        android:inputType="phone"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
-
-    <EditText
-        android:id="@+id/editTextPassword"
-        android:layout_width="340dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="24dp"
-        android:fontFamily="@font/comfortaa"
-        android:hint="Contraseña"
-        android:inputType="textPassword"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
-
-    <EditText
-        android:id="@+id/editTextConfirmPassword"
-        android:layout_width="340dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="28dp"
-        android:fontFamily="@font/comfortaa"
-        android:hint="Confirme la contraseña"
-        android:inputType="textPassword"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
 
     <Button
         android:id="@+id/button_registrarse_confirmar"
@@ -129,7 +43,29 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextConfirmPassword"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_home_principal"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/secondary"
+        android:fontFamily="@font/barlow_normal"
+        android:onClick="irMain"
+        android:text="Volver al home"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="@color/secondary"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView6"
@@ -145,6 +81,92 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:layout_constraintVertical_bias="0.732" />
+        app:layout_constraintVertical_bias="0.638" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Confirme la contraseña"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUsername" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="216dp"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Nombre de usuario"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Teléfono"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="77dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039"
+        app:srcCompat="@drawable/icono" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

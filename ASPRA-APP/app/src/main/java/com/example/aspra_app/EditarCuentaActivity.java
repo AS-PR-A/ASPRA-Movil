@@ -77,4 +77,8 @@ public class EditarCuentaActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void irMain(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }
