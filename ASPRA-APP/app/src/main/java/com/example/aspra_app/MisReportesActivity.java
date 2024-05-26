@@ -35,10 +35,12 @@ public class MisReportesActivity extends AppCompatActivity {
             TableRow row = new TableRow(this);
 
             TextView fechaView = new TextView(this);
+            fechaView.setTextColor(getResources().getColor(R.color.white));
             fechaView.setText(reporte.getFecha());
             row.addView(fechaView);
 
             TextView direccionView = new TextView(this);
+            direccionView.setTextColor(getResources().getColor(R.color.white));
             direccionView.setText(reporte.getDireccion());
             row.addView(direccionView);
 
