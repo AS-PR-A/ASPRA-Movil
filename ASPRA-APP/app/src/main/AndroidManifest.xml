@@ -27,7 +27,7 @@
         <activity
             android:name=".EditarCuentaActivity"
             android:exported="false"
-            android:label="@string/mi_cuenta_name"
+            android:label=" "
             android:parentActivityName=".MiCuentaActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -36,7 +36,7 @@
         <activity
             android:name=".MiCuentaActivity"
             android:exported="false"
-            android:label="@string/home_name"
+            android:label=" "
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -45,7 +45,7 @@
         <activity
             android:name=".EditarReporteActivity"
             android:exported="false"
-            android:label="@string/reporte_name"
+            android:label=" "
             android:parentActivityName=".ReporteActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -54,7 +54,7 @@
         <activity
             android:name=".ReporteActivity"
             android:exported="false"
-            android:label="@string/mis_reportes_name"
+            android:label=" "
             android:parentActivityName=".MisReportesActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -63,7 +63,7 @@
         <activity
             android:name=".MisReportesActivity"
             android:exported="false"
-            android:label="@string/home_name"
+            android:label=" "
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -72,7 +72,7 @@
         <activity
             android:name=".MultimediaActivity"
             android:exported="false"
-            android:label="@string/home_name"
+            android:label=""
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -80,7 +80,7 @@
         </activity>
         <activity
             android:name=".ReporteExitosoActivity"
-            android:label="@string/reporte_name"
+            android:label=" "
             android:parentActivityName=".ReportarActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -88,7 +88,7 @@
         </activity>
         <activity
             android:name=".ReportarActivity"
-            android:label="@string/home_name"
+            android:label=""
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -96,7 +96,7 @@
         </activity>
         <activity
             android:name=".RegistrarseActivity"
-            android:label="@string/login_name"
+            android:label=""
             android:parentActivityName=".LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -104,7 +104,7 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:label="@string/home_name"
+            android:label=""
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -112,7 +112,7 @@
         </activity>
         <activity
             android:name=".ContactoActivity"
-            android:label="@string/home_name"
+            android:label=""
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
