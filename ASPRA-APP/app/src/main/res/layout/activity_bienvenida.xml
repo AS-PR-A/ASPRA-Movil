@@ -31,6 +31,7 @@
         android:layout_height="67dp"
         android:background="@drawable/borde_redondo"
         android:fontFamily="@font/barlow_normal"
+        android:onClick="irMain"
         android:text="Empezar"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
