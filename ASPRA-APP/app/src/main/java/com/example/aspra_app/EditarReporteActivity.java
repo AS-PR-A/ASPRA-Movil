@@ -81,4 +81,8 @@ public class EditarReporteActivity extends AppCompatActivity {
             dialog.show();
         });
     }
+    public void irMain(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }

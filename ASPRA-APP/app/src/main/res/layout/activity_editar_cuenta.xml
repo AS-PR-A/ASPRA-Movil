@@ -116,6 +116,28 @@
         app:strokeColor="@color/black"
         tools:ignore="MissingConstraints" />
 
+    <Button
+        android:id="@+id/button_home_principal"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTint="@color/secondary"
+        android:fontFamily="@font/barlow_normal"
+        android:onClick="irMain"
+        android:text="Volver al home"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="@color/secondary"
+        tools:ignore="MissingConstraints" />
+
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"

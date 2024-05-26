@@ -35,10 +35,12 @@ public class MisReportesActivity extends AppCompatActivity {
             TableRow row = new TableRow(this);
 
             TextView fechaView = new TextView(this);
+            fechaView.setTextColor(getResources().getColor(R.color.white));
             fechaView.setText(reporte.getFecha());
             row.addView(fechaView);
 
             TextView direccionView = new TextView(this);
+            direccionView.setTextColor(getResources().getColor(R.color.white));
             direccionView.setText(reporte.getDireccion());
             row.addView(direccionView);
 
@@ -61,5 +63,10 @@ public class MisReportesActivity extends AppCompatActivity {
         } catch (Exception e) {
             Toast.makeText(this, "Error al abrir el reporte", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    public void irReportar(View view) {
+        Intent intent = new Intent(this, ReportarActivity.class);
+        startActivity(intent);
     }
 }

@@ -61,6 +61,11 @@ public class ReporteActivity extends AppCompatActivity {
         AlertDialog alert = builder.create();
         alert.show();
     }
+
+    public void irMain(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }
 
 
