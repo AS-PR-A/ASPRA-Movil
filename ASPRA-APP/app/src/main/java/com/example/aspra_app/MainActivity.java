@@ -2,15 +2,13 @@ package com.example.aspra_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
-
-import com.example.aspra_app.data.DatabaseHelper;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         buttonLogin = findViewById(R.id.button_home_login);
 
-        if(userlogged.getUserLogged() == ""){
+        if(LoginActivity.getUserLogged(MainActivity.this) == ""){
             Button buttonMiCuenta = findViewById(R.id.button_home_miCuenta);
             Button buttonReportar = findViewById(R.id.button_home_reportar);
             Button buttonMisReportes = findViewById(R.id.button_home_misReportes);
@@ -70,9 +68,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void logout(View view){
-        userlogged.setUserLogged("");
+    public void logout(View view) {
+        SharedPreferences sharedPreferences = getSharedPreferences("user_prefs", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.clear();
+        editor.apply();
+
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
         finish();
-        startActivity(getIntent());
     }
 }

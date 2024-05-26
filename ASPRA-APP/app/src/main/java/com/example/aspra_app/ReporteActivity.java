@@ -2,38 +2,42 @@ package com.example.aspra_app;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.net.Uri;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.Toast;
+import com.example.aspra_app.data.ReporteDAO;
+import com.example.aspra_app.models.Reporte;
+
 public class ReporteActivity extends AppCompatActivity {
+    private TextView textViewDireccion;
+    private TextView textViewMotivo;
+    private TextView textViewDescripcion;
+    private ReporteDAO reporteDAO;
+    private Reporte reporte;
+    private long reporteId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reporte);
-
+        reporteId = getIntent().getLongExtra("reporteId", -1);
+        textViewDireccion = findViewById(R.id.textViewDireccion);
+        textViewMotivo = findViewById(R.id.textViewMotivo);
+        textViewDescripcion = findViewById(R.id.textViewDescripcion);
+        reporteDAO = new ReporteDAO(this);
+        reporte = reporteDAO.getReporteById(reporteId);
+        textViewDireccion.setText(reporte.getDireccion());
+        textViewMotivo.setText(reporte.getMotivo());
+        textViewDescripcion.setText(reporte.getDescripcion());
     }
-
-    ;
 
     public void irEditarReporte(View view) {
         Intent intent = new Intent(this, EditarReporteActivity.class);
+        intent.putExtra("reporteId", reporteId);
         startActivity(intent);
-    }
-
-    public void openWebsite(String url) {
-        Uri webpage = Uri.parse(url);
-        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
-        if (intent.resolveActivity(getPackageManager()) != null) {
-            startActivity(intent);
-        }
     }
 
     public void eliminarReporte(View view) {
@@ -42,31 +46,24 @@ public class ReporteActivity extends AppCompatActivity {
                 .setCancelable(false)
                 .setPositiveButton("Sí", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        mostrarConfirmacion();
+                        reporteDAO.deleteReport(reporte.getId());
+                        Toast.makeText(ReporteActivity.this, "Reporte eliminado!", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(ReporteActivity.this, MisReportesActivity.class);
+                        startActivity(intent);
+                        finish();
                     }
                 })
                 .setNegativeButton("No", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
+                        dialog.dismiss();
                     }
                 });
         AlertDialog alert = builder.create();
         alert.show();
     }
-
-    public void mostrarConfirmacion() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Reporte eliminado")
-                .setCancelable(false)
-                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        Intent intent = new Intent(ReporteActivity.this, MisReportesActivity.class);
-                        startActivity(intent);
-                    }
-                });
-        AlertDialog alert = builder.create();
-        alert.show();
-    }
-
 }
+
+
+
 
 
