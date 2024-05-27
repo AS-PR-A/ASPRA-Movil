@@ -79,4 +79,8 @@ public class RegistrarseActivity extends AppCompatActivity {
         return email.matches(emailPattern);
     }
 
+    public void irMain(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }
