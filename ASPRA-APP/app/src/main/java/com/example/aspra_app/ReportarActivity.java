@@ -61,7 +61,6 @@ public class ReportarActivity extends AppCompatActivity {
                     Reporte reporte = new Reporte(0, fecha, direccion, motivo, descripcion, emailUsuario);
                     long result = reporteDAO.addReport(reporte,usuario,idMotivo);
                     if (result != -1) {
-                        Toast.makeText(ReportarActivity.this, "Reporte aprobado!", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(ReportarActivity.this, ReporteExitosoActivity.class);
                         startActivity(intent);
                     } else {

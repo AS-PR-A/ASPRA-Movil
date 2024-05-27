@@ -3121,6 +3121,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button
 id buttonPanel
 id button_conf_edit_cuenta
 id button_edit_reporte
@@ -3131,11 +3132,13 @@ id button_home_login
 id button_home_miCuenta
 id button_home_misReportes
 id button_home_multimedia
+id button_home_principal
 id button_home_reportar
 id button_login
 id button_login_registrarse
 id button_logout
 id button_registrarse_confirmar
+id button_reportar
 id button_reporte_enviar
 id cache_measures
 id callMeasure
@@ -3276,6 +3279,7 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
+id imageView7
 id immediateStop
 id included
 id indeterminate
@@ -3298,6 +3302,7 @@ id linkTextView
 id listMode
 id list_item
 id m3_side_sheet
+id main
 id marquee
 id masked
 id match_constraint
@@ -3512,9 +3517,11 @@ id textView11
 id textView12
 id textView13
 id textView14
+id textView15
 id textView16
 id textView17
 id textView18
+id textView19
 id textView2
 id textView20
 id textView21
@@ -3699,6 +3706,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_bienvenida
 layout activity_contacto
 layout activity_editar_cuenta
 layout activity_editar_reporte

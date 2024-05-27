@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:2:1-124:12
-INJECTED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:2:1-124:12
-INJECTED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:2:1-124:12
-INJECTED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:2:1-124:12
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:2:1-130:12
+INJECTED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:2:1-130:12
+INJECTED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:2:1-130:12
+INJECTED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:2:1-130:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\proye\.gradle\caches\transforms-3\e5f321a248aa217236dda4759916dcd9\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\proye\.gradle\caches\transforms-3\5acf9a84f6874f66961cd7fc314b86a2\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\proye\.gradle\caches\transforms-3\04a0f34cf908c682d73fc22f94c08cc8\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -59,8 +59,8 @@ ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\A
 	android:name
 		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:7:5-122:19
-INJECTED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:7:5-122:19
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:7:5-128:19
+INJECTED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:7:5-128:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\proye\.gradle\caches\transforms-3\e5f321a248aa217236dda4759916dcd9\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\proye\.gradle\caches\transforms-3\e5f321a248aa217236dda4759916dcd9\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\proye\.gradle\caches\transforms-3\5acf9a84f6874f66961cd7fc314b86a2\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -97,132 +97,140 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\pr
 		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:15:9-46
 	android:dataExtractionRules
 		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:9:9-65
-activity#com.example.aspra_app.EditarCuentaActivity
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:17:9-25:20
-	android:parentActivityName
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:21:13-59
-	android:label
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:20:13-51
+activity#com.example.aspra_app.Bienvenida
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:17:9-26:20
 	android:exported
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:19:13-37
-	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:18:13-49
-meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:22:13-24:74
-	android:value
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:24:17-71
-	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:23:17-63
-activity#com.example.aspra_app.MiCuentaActivity
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:26:9-34:20
-	android:parentActivityName
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:30:13-55
-	android:label
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:29:13-46
-	android:exported
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:28:13-37
-	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:27:13-45
-activity#com.example.aspra_app.EditarReporteActivity
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:35:9-43:20
-	android:parentActivityName
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:39:13-58
-	android:label
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:38:13-49
-	android:exported
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:37:13-37
-	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:36:13-50
-activity#com.example.aspra_app.ReporteActivity
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:44:9-52:20
-	android:parentActivityName
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:48:13-62
-	android:label
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:47:13-54
-	android:exported
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:46:13-37
-	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:45:13-44
-activity#com.example.aspra_app.MisReportesActivity
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:53:9-61:20
-	android:parentActivityName
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:57:13-55
-	android:label
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:56:13-46
-	android:exported
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:55:13-37
-	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:54:13-48
-activity#com.example.aspra_app.MultimediaActivity
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:62:9-70:20
-	android:parentActivityName
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:66:13-55
-	android:label
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:65:13-46
-	android:exported
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:64:13-37
-	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:63:13-47
-activity#com.example.aspra_app.ReporteExitosoActivity
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:71:9-78:20
-	android:parentActivityName
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:74:13-59
-	android:label
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:73:13-49
-	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:72:13-51
-activity#com.example.aspra_app.ReportarActivity
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:79:9-86:20
-	android:parentActivityName
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:82:13-55
-	android:label
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:81:13-46
-	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:80:13-45
-activity#com.example.aspra_app.RegistrarseActivity
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:87:9-94:20
-	android:parentActivityName
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:90:13-56
-	android:label
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:89:13-47
-	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:88:13-48
-activity#com.example.aspra_app.LoginActivity
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:95:9-102:20
-	android:parentActivityName
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:98:13-55
-	android:label
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:97:13-46
-	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:96:13-42
-activity#com.example.aspra_app.ContactoActivity
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:103:9-110:20
-	android:parentActivityName
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:106:13-55
-	android:label
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:105:13-46
-	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:104:13-45
-activity#com.example.aspra_app.MainActivity
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:111:9-121:20
-	android:label
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:114:13-40
-	android:exported
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:113:13-36
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:19:13-36
 	android:theme
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:115:13-53
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:20:13-69
 	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:112:13-41
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:18:13-39
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:116:13-120:29
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:117:17-69
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:117:25-66
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:119:17-77
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:119:27-74
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.example.aspra_app.EditarCuentaActivity
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:27:9-35:20
+	android:parentActivityName
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:31:13-59
+	android:label
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:30:13-30
+	android:exported
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:28:13-49
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:32:13-34:74
+	android:value
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:34:17-71
+	android:name
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:33:17-63
+activity#com.example.aspra_app.MiCuentaActivity
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:36:9-44:20
+	android:parentActivityName
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:40:13-55
+	android:label
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:39:13-30
+	android:exported
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:37:13-45
+activity#com.example.aspra_app.EditarReporteActivity
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:45:9-53:20
+	android:parentActivityName
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:49:13-58
+	android:label
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:48:13-30
+	android:exported
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:46:13-50
+activity#com.example.aspra_app.ReporteActivity
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:54:9-62:20
+	android:parentActivityName
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:58:13-62
+	android:label
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:57:13-30
+	android:exported
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:55:13-44
+activity#com.example.aspra_app.MisReportesActivity
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:63:9-71:20
+	android:parentActivityName
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:67:13-55
+	android:label
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:66:13-30
+	android:exported
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:64:13-48
+activity#com.example.aspra_app.MultimediaActivity
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:72:9-80:20
+	android:parentActivityName
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:76:13-55
+	android:label
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:75:13-29
+	android:exported
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:73:13-47
+activity#com.example.aspra_app.ReporteExitosoActivity
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:81:9-88:20
+	android:parentActivityName
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:84:13-59
+	android:label
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:83:13-30
+	android:name
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:82:13-51
+activity#com.example.aspra_app.ReportarActivity
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:89:9-96:20
+	android:parentActivityName
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:92:13-55
+	android:label
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:91:13-29
+	android:name
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:90:13-45
+activity#com.example.aspra_app.RegistrarseActivity
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:97:9-104:20
+	android:parentActivityName
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:100:13-56
+	android:label
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:99:13-29
+	android:name
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:98:13-48
+activity#com.example.aspra_app.LoginActivity
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:105:9-112:20
+	android:parentActivityName
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:108:13-55
+	android:label
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:107:13-29
+	android:name
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:106:13-42
+activity#com.example.aspra_app.ContactoActivity
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:113:9-120:20
+	android:parentActivityName
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:116:13-55
+	android:label
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:115:13-29
+	android:name
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:114:13-45
+activity#com.example.aspra_app.MainActivity
+ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:121:9-127:20
+	android:label
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:124:13-40
+	android:exported
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:123:13-36
+	android:theme
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:125:13-53
+	android:name
+		ADDED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml:122:13-41
 uses-sdk
 INJECTED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\proye\Desktop\PP 2024 MOVIL\2 - APP 22-5 Vista actualizada\ASPRA-Movil\ASPRA-APP\app\src\main\AndroidManifest.xml

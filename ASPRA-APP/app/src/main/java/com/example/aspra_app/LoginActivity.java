@@ -32,9 +32,8 @@ public class LoginActivity extends AppCompatActivity {
             String password = editPass.getText().toString();
             boolean log = auth.login(email, password);
             if (log) {
-                Toast.makeText(LoginActivity.this, "Inicio aprobado!", Toast.LENGTH_SHORT).show();
                 setUserLogged(email);  // Guarda el email del usuario logueado
-                Intent intent = new Intent(this, MiCuentaActivity.class);
+                Intent intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
             } else {
                 Toast.makeText(LoginActivity.this, "Datos incorrectos", Toast.LENGTH_SHORT).show();
