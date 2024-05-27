@@ -3123,7 +3123,7 @@ id bounceEnd
 id bounceStart
 id buttonPanel
 id button_conf_edit_cuenta
-id button_conf_edit_reporte
+id button_edit_reporte
 id button_editar_cuenta
 id button_eliminar_cuenta
 id button_home_contacto
@@ -3209,6 +3209,8 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editDescripcion
+id editDireccion
 id editName
 id editPass
 id editPhone
@@ -3216,10 +3218,7 @@ id editTextConfirmPassword
 id editTextEmail
 id editTextPassword
 id editTextPhone
-id editTextText2
-id editTextText4
 id editTextTextEmailAddress
-id editTextTextEmailAddress2
 id editTextTextPassword
 id editTextUsername
 id edit_query
@@ -3531,7 +3530,10 @@ id textView6
 id textView7
 id textView8
 id textView9
+id textViewDescripcion
+id textViewDireccion
 id textViewEmail
+id textViewMotivo
 id textViewPhone
 id textViewUsername
 id text_input_end_icon

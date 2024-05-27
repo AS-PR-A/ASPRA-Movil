@@ -14,8 +14,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import com.example.aspra_app.data.ReporteDAO;
+import com.example.aspra_app.data.UserDAO;
 import com.example.aspra_app.models.Reporte;
 import com.example.aspra_app.data.DatabaseHelper;
+import com.example.aspra_app.models.Usuario;
 
 public class ReportarActivity extends AppCompatActivity {
 
@@ -51,9 +53,13 @@ public class ReportarActivity extends AppCompatActivity {
                 String fecha = obtenerFechaActual();
                 String emailUsuario = LoginActivity.getUserLogged(ReportarActivity.this);
 
+                UserDAO userDAO = new UserDAO(ReportarActivity.this);
+                Usuario usuario = userDAO.getUser(emailUsuario);
+                int idMotivo = (spMotivo.getSelectedItemPosition()+1);
+
                 if (!motivo.isEmpty() && !direccion.isEmpty() && !descripcion.isEmpty()) {
                     Reporte reporte = new Reporte(0, fecha, direccion, motivo, descripcion, emailUsuario);
-                    long result = reporteDAO.addReport(reporte);
+                    long result = reporteDAO.addReport(reporte,usuario,idMotivo);
                     if (result != -1) {
                         Toast.makeText(ReportarActivity.this, "Reporte aprobado!", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(ReportarActivity.this, ReporteExitosoActivity.class);

@@ -65,7 +65,8 @@ public class EditarReporteActivity extends AppCompatActivity {
                             reporte.setDireccion(editDireccion.getText().toString());
                             reporte.setMotivo(spMotivo.getSelectedItem().toString());
                             reporte.setDescripcion(editDescripcion.getText().toString());
-                            reporteDAO.updateReport(reporte);
+                            int idMotivo = spMotivo.getSelectedItemPosition()+1;
+                            reporteDAO.updateReport(reporte,idMotivo);
                             Toast.makeText(EditarReporteActivity.this, "Reporte modificado!", Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(EditarReporteActivity.this, MisReportesActivity.class);
                             startActivity(intent);

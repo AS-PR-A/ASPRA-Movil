@@ -9,7 +9,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.aspra_app.data.ReporteDAO;
+import com.example.aspra_app.data.UserDAO;
 import com.example.aspra_app.models.Reporte;
+import com.example.aspra_app.models.Usuario;
+
 import java.util.List;
 
 public class MisReportesActivity extends AppCompatActivity {
@@ -23,13 +26,15 @@ public class MisReportesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_mis_reportes);
 
         userEmail = LoginActivity.getUserLogged(this);
+        UserDAO userDAO = new UserDAO(MisReportesActivity.this);
+        Usuario usuario = userDAO.getUser(userEmail);
 
         reporteDAO = new ReporteDAO(this);
 
         TableLayout table = findViewById(R.id.tableLayout);
 
 
-        List<Reporte> reportes = reporteDAO.getReporte(userEmail);
+        List<Reporte> reportes = reporteDAO.getReporte(usuario.getId());
 
         for (Reporte reporte : reportes) {
             TableRow row = new TableRow(this);
