@@ -24,8 +24,8 @@ public class Bienvenida extends AppCompatActivity {
         });
     }
 
-    public void irMain(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
+    public void irLogin(View view) {
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
 }

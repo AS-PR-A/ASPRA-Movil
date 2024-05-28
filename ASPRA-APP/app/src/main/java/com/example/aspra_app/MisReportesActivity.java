@@ -42,11 +42,15 @@ public class MisReportesActivity extends AppCompatActivity {
             TextView fechaView = new TextView(this);
             fechaView.setTextColor(getResources().getColor(R.color.white));
             fechaView.setText(reporte.getFecha());
+            fechaView.setTextSize(18);
+            fechaView.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
             row.addView(fechaView);
 
             TextView direccionView = new TextView(this);
             direccionView.setTextColor(getResources().getColor(R.color.white));
             direccionView.setText(reporte.getDireccion());
+            direccionView.setTextSize(18);
+            direccionView.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
             row.addView(direccionView);
 
             row.setOnClickListener(new View.OnClickListener() {

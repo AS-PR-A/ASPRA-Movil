@@ -11,8 +11,7 @@
         android:id="@+id/editDescripcion"
         android:layout_width="294dp"
         android:layout_height="56dp"
-        android:layout_marginTop="472dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginTop="420dp"
         android:background="@color/primary"
         android:ems="10"
         android:fontFamily="@font/comfortaa"
@@ -24,6 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spMotivo"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
@@ -31,8 +31,7 @@
         android:id="@+id/editDireccion"
         android:layout_width="294dp"
         android:layout_height="56dp"
-        android:layout_marginTop="268dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginTop="244dp"
         android:background="@color/primary"
         android:ems="10"
         android:fontFamily="@font/comfortaa"
@@ -127,12 +126,11 @@
         android:layout_height="58dp"
         android:background="@color/primary"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/button_edit_reporte"
+        app:layout_constraintTop_toBottomOf="@id/editDireccion"
+        app:layout_constraintBottom_toTopOf="@id/editDescripcion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editDireccion"
-        app:layout_constraintVertical_bias="0.186" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
