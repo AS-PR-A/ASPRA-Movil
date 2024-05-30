@@ -12,7 +12,7 @@
 
 
 ##  😺💝🐶 ASPRA Móvil es una aplicación complementaria a nuestra página web, diseñada para dispositivos Android, la cual brinda la posibilidad de reportar animales perdidos y abandonados, contribuyendo así a su rescate. Además, permite realizar un seguimiento de los animales que han sido rescatados y compartir fotos o videos de ellos. Asimismo, cuenta con un sistema de inicio de sesión que facilita a los usuarios el proceso de reportar/encontrar animales, y también la posibilidad de realizar donaciones. 🐶💝😺
-</div>
+
 <br>
 
 <h1 align="center"> 
@@ -191,44 +191,45 @@
 
 ### Lenguaje de programación 📒
 
-- Java
+#### Java
 
-### Back-End 💻
+### IDE 💻
 
-- Android Studio
+#### Android Studio
 
 ### Base de Datos 📚
 
-- SQLite
+#### SQLite
 
 <br>
 
-### Más de ASPRA
+## Más de ASPRA
 
-- ### [Documento IEEE830](https://docs.google.com/document/d/1yoGYpTMU1NPqZDSuM2iEQeQGeHVx1eCX/edit?usp=sharing&ouid=103416615054896105402&rtpof=true&sd=true)
+### [Documento IEEE830](https://docs.google.com/document/d/1yoGYpTMU1NPqZDSuM2iEQeQGeHVx1eCX/edit?usp=sharing&ouid=103416615054896105402&rtpof=true&sd=true)
 
-- ### [Wiki](https://github.com/JDGA1997/ASPRA-Movil/wiki)
+### [Wiki](https://github.com/JDGA1997/ASPRA-Movil/wiki)
 
-- ### [Diagrama de Caso de Uso]()
+### [Diagrama de Caso de Uso]()
 
-- ### [Diagrama de Entidad-Relacion (DER)]()
+### [Diagrama de Entidad-Relacion (DER)]()
 
-- ### [Diagrama de Clases]()
+### [Diagrama de Clases]()
 
-- ### [Modelo Relacional]()
+### [Modelo Relacional]()
 
-- ### [Script de BBDD]()
+### [Script de BBDD]()
 
-- ### [Mapa de Pantallas]()
+### [Mapa de Pantallas]()
 
-- ### [Tablero Kanban](https://github.com/orgs/AS-PR-A/projects/13/views/1)
+### [Tablero Kanban](https://github.com/orgs/AS-PR-A/projects/13/views/1)
 
-- ### [Milestone](https://github.com/AS-PR-A/ASPRA-Movil/milestones)
+### [Milestone](https://github.com/AS-PR-A/ASPRA-Movil/milestones)
 
-- ### [Issues](https://github.com/AS-PR-A/ASPRA-Movil/issues?q=)
+### [Issues](https://github.com/AS-PR-A/ASPRA-Movil/issues?q=)
 
-- ### [Sprint 2](https://github.com/AS-PR-A/ASPRA-Movil/milestone/4)
+### [Sprint 2](https://github.com/AS-PR-A/ASPRA-Movil/milestone/4)
 
-- ### [Testing](https://github.com/AS-PR-A/ASPRA-Movil/tree/Sprint2-JDGA1997/Testing)
+### [Testing](https://github.com/AS-PR-A/ASPRA-Movil/tree/Sprint2-JDGA1997/Testing)
 
-- ### [ASPRA WEB](https://github.com/AS-PR-A/ASPRA-Web)
+### [ASPRA WEB](https://github.com/AS-PR-A/ASPRA-Web)
+</div>
