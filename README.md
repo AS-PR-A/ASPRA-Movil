@@ -204,18 +204,32 @@
 
 ### Más de ASPRA
 
-- ### [Documento IEEE830](https://docs.google.com/document/d/1i23TJdPODDo3MueUA5d99c0pG-Jg3S37/edit)
+- ### [Documento IEEE830](https://docs.google.com/document/d/1yoGYpTMU1NPqZDSuM2iEQeQGeHVx1eCX/edit?usp=sharing&ouid=103416615054896105402&rtpof=true&sd=true)
 
 - ### [Wiki](https://github.com/JDGA1997/ASPRA-Movil/wiki)
 
-- ### [Tablero Kanban](https://github.com/users/JDGA1997/projects/8)
+- ### [Diagrama de Caso de Uso]()
 
-- ### [Milestones](https://github.com/JDGA1997/ASPRA-Movil/milestones?state=closed)
+- ### [Diagrama de Entidad-Relacion (DER)]()
 
-- ### [Issues](https://github.com/JDGA1997/ASPRA-Movil/issues?q=is%3Aissue+is%3Aclosed)
+- ### [Diagrama de Clases]()
+
+- ### [Modelo Relacional]()
+
+- ### [Script de BBDD]()
+
+- ### [Mapa de Pantallas]()
+
+- ### [Tablero Kanban](https://github.com/orgs/AS-PR-A/projects/13/views/1)
+
+- ### [Milestone](https://github.com/AS-PR-A/ASPRA-Movil/milestones)
+
+- ### [Issues](https://github.com/AS-PR-A/ASPRA-Movil/issues?q=)
 
 - ### [Casos de Pruebas (Sprint 1)](https://docs.google.com/spreadsheets/d/1AUrAgLY13m-6oASn2H-t2ebHT0fogIdAVW-qHUgEhL4/edit#gid=0)
 
-- ### [Sprint 2](https://github.com/JDGA1997/ASPRA-Movil/wiki/4.-Sprint-2-%F0%9F%93%8B)
+- ### [Sprint 2](https://github.com/AS-PR-A/ASPRA-Movil/milestone/4)
+
+- ### [Testing](https://github.com/AS-PR-A/ASPRA-Movil/tree/Sprint2-JDGA1997/Testing)
 
 - ### [ASPRA WEB](https://github.com/AS-PR-A/ASPRA-Web)
