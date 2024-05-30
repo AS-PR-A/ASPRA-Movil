@@ -14,16 +14,175 @@
 
 <br>
 
-## Integrantes  👩‍💻👨🏼‍💻
+<h1 align="center"> 
+  👩‍💻👨🏼‍💻 Integrantes 👩‍💻👨🏼‍💻
+</h1>
+<h3 align="center">Scrum Master</h3>
+    <dl>
+      <dd>
+        <table align="center">
+          <thead>
+            <tr>
+              <th>Nombre y Apellido</th>
+              <th>Comision</th>
+              <th>Usuario en GitHub</th>
+              <th>GitHub</th>
+              <th>Linkedin</th>
+              <th>Portfolio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> Juan Diego González Antoniazzi </td>
+              <td> 2 </td>
+              <td> JDGA1997 </td>
+              <td>
+                <a href="https://github.com/JDGA1997">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in/jdga1997/">
+                  <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="">
+                  <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139">
+                </a>
+              </td>
+            </tr>
+            <tr>
+        </table>
+      </dd>
+    </dl>
+  </dd>
+  <dd>
+<dl>
+<dl>
+    <h3 align="center">Developer Team</h3>
+    <dl>
+      <dd>
+        <table align="center">
+          <thead>
+            <tr>
+              <th>Nombre y Apellido</th>
+              <th>Comision</th>
+              <th>Usuario en GitHub</th>
+              <th>GitHub</th>
+              <th>Linkedin</th>
+              <th>Portfolio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> Axel Ezequiel Montivero </td>
+              <td> 2 </td>
+              <td> Ezmant </td>
+              <td>
+                <a href="https://github.com/Ezmant">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in/">
+                  <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="">
+                  <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Fabiana Jazmin Amato </td>
+              <td> 1 </td>
+              <td> AmatoJazmin </td>
+              <td>
+                <a href="https://github.com/AmatoJazmin">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in//">
+                  <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="">
+                  <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Nicolás Mattos </td>
+              <td> 2 </td>
+              <td> NicolasMattos03 </td>
+              <td>
+                <a href="https://github.com/NicolasMattos03">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in//">
+                  <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="">
+                  <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Melanie Reyes </td>
+              <td> 3 </td>
+              <td> MelanieR24 </td>
+              <td>
+                <a href="https://github.com/MelanieR24">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in//">
+                  <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="">
+                  <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Alejandro Moreno </td>
+              <td> 2 </td>
+              <td> MoCAlejandro </td>
+              <td>
+                <a href="https://github.com/MoCAlejandro">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in//">
+                  <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="">
+                  <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139">
+                </a>
+              </td>
+            </tr>
+            <tr>
+          </tbody>
+        </table>
+      </dd>
+    </dl>
+  </dd>
+  <dd>
 
-| Nombre          | Apellido            | GitHub                                                | Comision |       Rol       |
-|-----------------|---------------------|-------------------------------------------------------|----------|-----------------|
-| Juan Diego      | González Antoniazzi | [JDGA1997](https://github.com/JDGA1997)               |   2      |  Scrum Master   |
-| Axel Ezequiel   | Montivero           | [Ezmant](https://github.com/Ezmant)                   |   2      |    Developer    |
-| Fabiana Jazmin  |  Amato              | [AmatoJazmin](https://github.com/AmatoJazmin)         |   1      |    Developer    |
-| Nicolás         | Mattos              | [NicolasMattos03](https://github.com/NicolasMattos03) |   2      |    Developer    |
-| Melanie         | Reyes               | [MelanieR24](https://github.com/MelanieR24)           |   3      |    Developer    |
-| Alejandro       |     Moreno          | [MoCAlejandro](https://github.com/MoCAlejandro)       |   2      |    Developer    |
 
 <br>
 
@@ -55,22 +214,8 @@
 
 - ### [Issues](https://github.com/JDGA1997/ASPRA-Movil/issues?q=is%3Aissue+is%3Aclosed)
 
-- ### [Sprint 0](https://github.com/JDGA1997/ASPRA-Movil/wiki/2.-Sprint-0-%F0%9F%93%8B)
-
-- ### [Sprint 1](https://github.com/JDGA1997/ASPRA-Movil/wiki/3.-Sprint-1-%F0%9F%93%8B)
-
-- ### [Screenshots de las Activities, Codigo y Diseño de la aplicacion](https://docs.google.com/document/d/1rpbULV3tEkBwn7mrqJSCzCiZCDXphIIjR3W90PFxsbM/edit#heading=h.1x6v9n9ty2d3)
-
-- ### [Video Demo (Sprint 1)](https://drive.google.com/file/d/1OB2Xz9hEBXh4K4L_hONvse18AxoTITMO/view)
-
 - ### [Casos de Pruebas (Sprint 1)](https://docs.google.com/spreadsheets/d/1AUrAgLY13m-6oASn2H-t2ebHT0fogIdAVW-qHUgEhL4/edit#gid=0)
 
 - ### [Sprint 2](https://github.com/JDGA1997/ASPRA-Movil/wiki/4.-Sprint-2-%F0%9F%93%8B)
-
-- ### [Video Final](https://drive.google.com/drive/folders/1jVkqDwFDAVyYMDD9QFwSYDzqgK1RJEeO?usp=sharing)
-
-- ### [Accesibilidad (Sprint 2)](https://drive.google.com/drive/folders/1ioI7jPwlYL2z1oBmqeHrRqIHITWvhzDN?usp=sharing)
-
-- ### [Automatización con Selenium (Sprint 2)](https://drive.google.com/drive/folders/1OEcdxMQN4puUrSq2W1cykY0cXc_OhmgV?usp=sharing)
 
 - ### [ASPRA WEB](https://github.com/AS-PR-A/ASPRA-Web)
