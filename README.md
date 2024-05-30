@@ -1,7 +1,8 @@
 
 
 <br>
-
+<div align="center">
+  
 ![DWAD](https://github.com/JDGA1997/ASPRA-Movil/assets/105946879/4bd8b57c-8cb3-4d67-92a8-bc83ac8733f4)
 <br></br>
 
@@ -11,7 +12,7 @@
 
 
 ##  😺💝🐶 ASPRA Móvil es una aplicación complementaria a nuestra página web, diseñada para dispositivos Android, la cual brinda la posibilidad de reportar animales perdidos y abandonados, contribuyendo así a su rescate. Además, permite realizar un seguimiento de los animales que han sido rescatados y compartir fotos o videos de ellos. Asimismo, cuenta con un sistema de inicio de sesión que facilita a los usuarios el proceso de reportar/encontrar animales, y también la posibilidad de realizar donaciones. 🐶💝😺
-
+</div>
 <br>
 
 <h1 align="center"> 
@@ -225,8 +226,6 @@
 - ### [Milestone](https://github.com/AS-PR-A/ASPRA-Movil/milestones)
 
 - ### [Issues](https://github.com/AS-PR-A/ASPRA-Movil/issues?q=)
-
-- ### [Casos de Pruebas (Sprint 1)](https://docs.google.com/spreadsheets/d/1AUrAgLY13m-6oASn2H-t2ebHT0fogIdAVW-qHUgEhL4/edit#gid=0)
 
 - ### [Sprint 2](https://github.com/AS-PR-A/ASPRA-Movil/milestone/4)
 
