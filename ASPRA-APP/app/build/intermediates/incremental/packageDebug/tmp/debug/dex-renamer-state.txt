@@ -1,4 +1,4 @@
-#Sat Jun 01 22:52:37 ART 2024
+#Sat Jun 01 23:41:04 ART 2024
 base.0=C\:\\Users\\Nico\\Videos\\ASPRA-Movil\\ASPRA-APP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Nico\\Videos\\ASPRA-Movil\\ASPRA-APP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\Nico\\Videos\\ASPRA-Movil\\ASPRA-APP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
