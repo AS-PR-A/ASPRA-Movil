@@ -4,9 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/secondary"
+    android:background="@color/primary"
     android:scrollbarSize="4dp"
     tools:context=".ReportarActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="77dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039"
+        app:srcCompat="@drawable/icono" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="165dp"
+        android:layout_height="19dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="ENVIAR REPORTE"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_reporte_enviar"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView"
@@ -14,6 +40,7 @@
         android:layout_height="64dp"
         android:layout_marginTop="56dp"
         android:layout_marginBottom="56dp"
+        android:fontFamily="@font/barlow_normal"
         android:text="@string/reportar_name"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -28,15 +55,14 @@
 
     <Button
         android:id="@+id/button_reporte_enviar"
-        android:layout_width="163dp"
+        android:layout_width="99dp"
         android:layout_height="58dp"
         android:layout_marginBottom="56dp"
-        android:backgroundTint="@color/white"
         android:onClick="irReporteExitoso"
-        android:text="@string/reporte_enviar"
+        android:text="✅"
         android:textAlignment="center"
         android:textColor="@color/secondary"
-        android:textSize="20sp"
+        android:textSize="26sp"
         android:textStyle="bold"
         app:iconTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,49 +77,26 @@
         android:layout_height="48dp"
         android:layout_marginTop="30dp"
         android:ems="10"
+        android:fontFamily="@font/barlowthin"
         android:hint="Por favor, ingrese una dirección"
         android:inputType="text"
         android:minHeight="48dp"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/tvMotivo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:layout_constraintVertical_bias="0.0" />
 
-    <Spinner
-        android:id="@+id/spMotivo"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:dropDownWidth="wrap_content"
-        android:dropDownSelector="@color/white"
-        android:minHeight="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/Descripcion"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvMotivo" />
-
-    <EditText
-        android:id="@+id/etDescripcion"
-        android:layout_width="295dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="536dp"
-        android:ems="10"
-        android:hint="Por favor, ingrese una descripción"
-        android:inputType="text"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.469"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/tvMotivo"
-        android:layout_width="129dp"
-        android:layout_height="45dp"
+        android:layout_width="128dp"
+        android:layout_height="50dp"
         android:layout_marginTop="304dp"
+        android:background="@color/secondary"
+        android:fontFamily="@font/comfortaa"
         android:text="@string/Motivo"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -106,9 +109,11 @@
 
     <TextView
         android:id="@+id/Descripcion"
-        android:layout_width="180dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="448dp"
+        android:layout_width="211dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="360dp"
+        android:background="@color/secondary"
+        android:fontFamily="@font/comfortaa"
         android:text="@string/Descripcion"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -116,8 +121,40 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/etDescripcion"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="295dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="540dp"
+        android:ems="10"
+        android:fontFamily="@font/barlowthin"
+        android:hint="Por favor, ingrese una descripción"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detallanos tu reporte"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/etDescripcion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Descripcion"
+        app:layout_constraintVertical_bias="0.833" />
 
     <TextView
         android:id="@+id/textView2"
@@ -125,6 +162,8 @@
         android:layout_height="50dp"
         android:layout_marginTop="150dp"
         android:layout_marginBottom="56dp"
+        android:background="@color/secondary"
+        android:fontFamily="@font/comfortaa"
         android:text="@string/Direccion"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -135,5 +174,47 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="247dp"
+        android:layout_height="18dp"
+        android:text="Seleccione el motivo de su reporte"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/spMotivo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMotivo"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <Spinner
+        android:id="@+id/spMotivo"
+        android:layout_width="128dp"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:dropDownWidth="wrap_content"
+        android:dropDownSelector="@color/white"
+        android:minHeight="48dp"
+        android:scrollbarSize="8dp"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/Descripcion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMotivo"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="Desde donde queres enviar tu reporte?"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/etDireccion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
