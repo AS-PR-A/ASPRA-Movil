@@ -1,61 +1,65 @@
-
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
+-- -----------------------------------------------------
+-- Schema asprapp
+-- -----------------------------------------------------
+DROP SCHEMA IF EXISTS `asprapp`;
+CREATE SCHEMA IF NOT EXISTS `asprapp` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE `asprapp`;
 
 -- -----------------------------------------------------
--- Schema ASPRAPP
+-- Table `asprapp`.`motivo`
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `ASPRAPP` DEFAULT CHARACTER SET utf8 ;
-USE `ASPRAPP` ;
-
--- -----------------------------------------------------
--- Tabla Usuario
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ASPRAPP`.`usuario` (
-  `nombre` VARCHAR(45) NOT NULL,
-  `contraseña` VARCHAR(20) NOT NULL,
-  `telefono` VARCHAR(15) NOT NULL,
-  `email` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`email`))
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Tabla Motivo
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ASPRAPP`.`motivo` (
-  `id_motivo` INT NOT NULL,
-  `tipo` VARCHAR(8) NOT NULL,
+CREATE TABLE IF NOT EXISTS `asprapp`.`motivo` (
+  `id_motivo` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(8) NOT NULL,
   PRIMARY KEY (`id_motivo`))
-ENGINE = InnoDB;
-
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_unicode_ci;
 
 -- -----------------------------------------------------
--- Tabla Reportes
+-- Table `asprapp`.`usuario`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ASPRAPP`.`reportes` (
-  `id_reporte` INT NOT NULL,
+CREATE TABLE IF NOT EXISTS `asprapp`.`usuario` (
+  `id_usuario` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `password` VARCHAR(20) NOT NULL,
+  `telefono` VARCHAR(15) NOT NULL,
+  PRIMARY KEY (`id_usuario`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_unicode_ci;
+
+-- -----------------------------------------------------
+-- Table `asprapp`.`reporte`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `asprapp`.`reporte` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `Fecha` DATE NOT NULL,
   `direccion` VARCHAR(45) NOT NULL,
-  `descripcion` VARCHAR(150) NOT NULL,
-  `email_usuario` VARCHAR(45) NOT NULL,
   `id_motivo` INT NOT NULL,
-  PRIMARY KEY (`id_reporte`),
-  INDEX `fk_reportes_usuario_idx` (`email_usuario` ASC) VISIBLE,
-  INDEX `fk_id_motivo_idx` (`id_motivo` ASC) VISIBLE,
-  CONSTRAINT `fk_reportes_usuario`
-    FOREIGN KEY (`email_usuario`)
-    REFERENCES `ASPRAPP`.`usuario` (`email`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_id_motivo`
+  `descripcion` VARCHAR(150) NOT NULL,
+  `id_usuario` INT NOT NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_id_motivo_idx` (`id_motivo` ASC),
+  INDEX `fk_reportes_usuario_idx` (`id_usuario` ASC),
+  CONSTRAINT `fk_reportes_motivo`
     FOREIGN KEY (`id_motivo`)
-    REFERENCES `ASPRAPP`.`motivo` (`id_motivo`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
-
+    REFERENCES `asprapp`.`motivo` (`id_motivo`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `fk_reportes_usuario`
+    FOREIGN KEY (`id_usuario`)
+    REFERENCES `asprapp`.`usuario` (`id_usuario`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_unicode_ci;
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
