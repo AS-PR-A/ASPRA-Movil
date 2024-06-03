@@ -35,17 +35,6 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Detallanos tu reporte"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/etDescripcion"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Descripcion" />
-
-    <TextView
         android:id="@+id/textView"
         android:layout_width="227dp"
         android:layout_height="64dp"
@@ -101,39 +90,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:layout_constraintVertical_bias="0.0" />
 
-    <Spinner
-        android:id="@+id/spMotivo"
-        android:layout_width="295dp"
-        android:layout_height="38dp"
-        android:background="?android:attr/windowSplashScreenIconBackgroundColor"
-        android:dropDownWidth="wrap_content"
-        android:dropDownSelector="@color/white"
-        android:minHeight="48dp"
-        android:scrollbarSize="8dp"
-        android:spinnerMode="dropdown"
-        app:layout_constraintBottom_toTopOf="@+id/Descripcion"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvMotivo"
-        app:layout_constraintVertical_bias="0.438" />
-
-    <EditText
-        android:id="@+id/etDescripcion"
-        android:layout_width="295dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="556dp"
-        android:ems="10"
-        android:fontFamily="@font/barlowthin"
-        android:hint="Por favor, ingrese una descripción"
-        android:inputType="text"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/tvMotivo"
         android:layout_width="128dp"
@@ -155,7 +111,7 @@
         android:id="@+id/Descripcion"
         android:layout_width="211dp"
         android:layout_height="54dp"
-        android:layout_marginTop="448dp"
+        android:layout_marginTop="360dp"
         android:background="@color/secondary"
         android:fontFamily="@font/comfortaa"
         android:text="@string/Descripcion"
@@ -165,8 +121,40 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/etDescripcion"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="295dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="540dp"
+        android:ems="10"
+        android:fontFamily="@font/barlowthin"
+        android:hint="Por favor, ingrese una descripción"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detallanos tu reporte"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/etDescripcion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Descripcion"
+        app:layout_constraintVertical_bias="0.833" />
 
     <TextView
         android:id="@+id/textView2"
@@ -195,10 +183,28 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/spMotivo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvMotivo"
-        app:layout_constraintVertical_bias="0.611" />
+        app:layout_constraintVertical_bias="0.523" />
+
+    <Spinner
+        android:id="@+id/spMotivo"
+        android:layout_width="128dp"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:dropDownWidth="wrap_content"
+        android:dropDownSelector="@color/white"
+        android:minHeight="48dp"
+        android:scrollbarSize="8dp"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/Descripcion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMotivo"
+        app:layout_constraintVertical_bias="0.619" />
 
     <TextView
         android:id="@+id/textView28"

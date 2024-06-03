@@ -1,4 +1,4 @@
-
+<div align="center">
 
 <br>
 
@@ -10,7 +10,7 @@
 
 
 
-##  😺💝🐶 ASPRA Móvil es una aplicación complementaria a nuestra página web, diseñada para dispositivos Android, la cual brinda la posibilidad de reportar animales perdidos y abandonados, contribuyendo así a su rescate. Además, permite realizar un seguimiento de los animales que han sido rescatados y compartir fotos o videos de ellos. Asimismo, cuenta con un sistema de inicio de sesión que facilita a los usuarios el proceso de reportar/encontrar animales, y también la posibilidad de realizar donaciones. 🐶💝😺
+###  😺💝🐶 ASPRA Móvil es una aplicación complementaria a nuestra página web, diseñada para dispositivos Android, la cual brinda la posibilidad de reportar animales perdidos y abandonados, contribuyendo así a su rescate. Además, permite realizar un seguimiento de los animales que han sido rescatados y compartir fotos o videos de ellos. Asimismo, cuenta con un sistema de inicio de sesión que facilita a los usuarios el proceso de reportar/encontrar animales, y también la posibilidad de realizar donaciones. 🐶💝😺
 
 <br>
 
@@ -27,50 +27,70 @@
 
 <br>
 
-## Aplicacion movil para Android📱
+<h1 align="center"> 
+  Tecnologías
+</h1>
 
-### Lenguaje de programación 📒
-
-- Java
-
-### Back-End 💻
-
-- Android Studio
-
-### Base de Datos 📚
-
-- SQLite
-
+<table align="center">
+  <thead>
+    <tr>
+      <th>Lenguaje de programación</th>
+      <th>IDE</th>
+      <th>Base de Datos</th>
+      <th>Testing</th>
+      <th>SO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
+      </td>
+      <td>
+        <img alt="Android Studio" src="https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white">
+      </td>
+      <td>
+        <img alt="SQLite" src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white">
+      </td>
+      <td>
+        <img alt="google-sheets" src="https://img.shields.io/badge/Google%20Sheets-%2334A853?style=for-the-badge&logo=Google%20sheets&logoColor=white">
+      </td>
+      <td>
+        <img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
+      </td>      
+    </tr>
+  </tbody>
+</table>
 <br>
 
-### Más de ASPRA
 
-- ### [Documento IEEE830](https://docs.google.com/document/d/1i23TJdPODDo3MueUA5d99c0pG-Jg3S37/edit)
+## Más de ASPRA
 
-- ### [Wiki](https://github.com/JDGA1997/ASPRA-Movil/wiki)
+### [Documento IEEE830](https://docs.google.com/document/d/1yoGYpTMU1NPqZDSuM2iEQeQGeHVx1eCX/edit?usp=sharing&ouid=103416615054896105402&rtpof=true&sd=true)
 
-- ### [Tablero Kanban](https://github.com/users/JDGA1997/projects/8)
+### [Wiki](https://github.com/JDGA1997/ASPRA-Movil/wiki)
 
-- ### [Milestones](https://github.com/JDGA1997/ASPRA-Movil/milestones?state=closed)
+### [Diagrama de Caso de Uso]()
 
-- ### [Issues](https://github.com/JDGA1997/ASPRA-Movil/issues?q=is%3Aissue+is%3Aclosed)
+### [Diagrama de Entidad-Relacion (DER)]()
 
-- ### [Sprint 0](https://github.com/JDGA1997/ASPRA-Movil/wiki/2.-Sprint-0-%F0%9F%93%8B)
+### [Diagrama de Clases]()
 
-- ### [Sprint 1](https://github.com/JDGA1997/ASPRA-Movil/wiki/3.-Sprint-1-%F0%9F%93%8B)
+### [Modelo Relacional]()
 
-- ### [Screenshots de las Activities, Codigo y Diseño de la aplicacion](https://docs.google.com/document/d/1rpbULV3tEkBwn7mrqJSCzCiZCDXphIIjR3W90PFxsbM/edit#heading=h.1x6v9n9ty2d3)
+### [Script de BBDD]()
 
-- ### [Video Demo (Sprint 1)](https://drive.google.com/file/d/1OB2Xz9hEBXh4K4L_hONvse18AxoTITMO/view)
+### [Mapa de Pantallas]()
 
-- ### [Casos de Pruebas (Sprint 1)](https://docs.google.com/spreadsheets/d/1AUrAgLY13m-6oASn2H-t2ebHT0fogIdAVW-qHUgEhL4/edit#gid=0)
+### [Tablero Kanban](https://github.com/orgs/AS-PR-A/projects/13/views/1)
 
-- ### [Sprint 2](https://github.com/JDGA1997/ASPRA-Movil/wiki/4.-Sprint-2-%F0%9F%93%8B)
+### [Milestone](https://github.com/AS-PR-A/ASPRA-Movil/milestones)
 
-- ### [Video Final](https://drive.google.com/drive/folders/1jVkqDwFDAVyYMDD9QFwSYDzqgK1RJEeO?usp=sharing)
+### [Issues](https://github.com/AS-PR-A/ASPRA-Movil/issues?q=)
 
-- ### [Accesibilidad (Sprint 2)](https://drive.google.com/drive/folders/1ioI7jPwlYL2z1oBmqeHrRqIHITWvhzDN?usp=sharing)
+### [Sprint 2](https://github.com/AS-PR-A/ASPRA-Movil/milestone/4)
 
-- ### [Automatización con Selenium (Sprint 2)](https://drive.google.com/drive/folders/1OEcdxMQN4puUrSq2W1cykY0cXc_OhmgV?usp=sharing)
+### [Testing](https://github.com/AS-PR-A/ASPRA-Movil/tree/Sprint2-JDGA1997/Testing)
 
-- ### [ASPRA WEB](https://github.com/AS-PR-A/ASPRA-Web)
+### [ASPRA WEB](https://github.com/AS-PR-A/ASPRA-Web)
+</div>

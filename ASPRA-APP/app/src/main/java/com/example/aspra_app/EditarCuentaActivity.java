@@ -23,6 +23,7 @@ public class EditarCuentaActivity extends AppCompatActivity {
     private Button button_edit_cuenta;
     private UserDAO userDAO;
     private Usuario usuario;
+    private LoginActivity userlogged = new LoginActivity();
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -30,13 +31,15 @@ public class EditarCuentaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editar_cuenta);
 
+        String emailUser = userlogged.getUserLogged(this);
+
         editName = findViewById(R.id.editName);
         editPass = findViewById(R.id.editPass);
         editPhone = findViewById(R.id.editPhone);
         button_edit_cuenta = findViewById(R.id.button_conf_edit_cuenta);
 
         userDAO = new UserDAO(this);
-        usuario = userDAO.getUser("usuario4@gmail.com");
+        usuario = userDAO.getUser(emailUser);
 
         editName.setText(usuario.getNombre());
         editPhone.setText(usuario.getTelefono());
@@ -77,4 +80,8 @@ public class EditarCuentaActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void irMain(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }

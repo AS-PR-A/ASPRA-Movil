@@ -25,16 +25,17 @@
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="335dp"
-        android:layout_height="470dp"
+        android:layout_width="332dp"
+        android:layout_height="389dp"
         android:layout_marginBottom="59dp"
         android:background="@color/secondary"
         android:contextClickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.515">
 
 
         <TableRow
@@ -43,7 +44,7 @@
 
             <TextView
                 android:id="@+id/textView13"
-                android:layout_width="170dp"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/comfortaa"
                 android:text="Fecha"
@@ -54,7 +55,7 @@
 
             <TextView
                 android:id="@+id/textView14"
-                android:layout_width="164dp"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/comfortaa"
                 android:text="Direccion"
@@ -90,9 +91,10 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="0.516" />
+        app:layout_constraintVertical_bias="0.327" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -105,4 +107,27 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.039"
         app:srcCompat="@drawable/icono" />
+
+    <Button
+        android:id="@+id/button_reportar"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginEnd="124dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/barlow_normal"
+        android:onClick="irReportar"
+        android:text="Añadir Reporte"
+        android:textAlignment="center"
+        android:textColor="@color/secondary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935"
+        app:strokeColor="@color/black"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

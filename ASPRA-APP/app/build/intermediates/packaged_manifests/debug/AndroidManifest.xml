@@ -30,9 +30,19 @@
         android:testOnly="true"
         android:theme="@style/Theme.ASPRAAPP" >
         <activity
+            android:name="com.example.aspra_app.Bienvenida"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.example.aspra_app.EditarCuentaActivity"
             android:exported="false"
-            android:label="@string/mi_cuenta_name"
+            android:label=" "
             android:parentActivityName="com.example.aspra_app.MiCuentaActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -41,7 +51,7 @@
         <activity
             android:name="com.example.aspra_app.MiCuentaActivity"
             android:exported="false"
-            android:label="@string/home_name"
+            android:label=" "
             android:parentActivityName="com.example.aspra_app.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -50,7 +60,7 @@
         <activity
             android:name="com.example.aspra_app.EditarReporteActivity"
             android:exported="false"
-            android:label="@string/reporte_name"
+            android:label=" "
             android:parentActivityName="com.example.aspra_app.ReporteActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -59,7 +69,7 @@
         <activity
             android:name="com.example.aspra_app.ReporteActivity"
             android:exported="false"
-            android:label="@string/mis_reportes_name"
+            android:label=" "
             android:parentActivityName="com.example.aspra_app.MisReportesActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -68,7 +78,7 @@
         <activity
             android:name="com.example.aspra_app.MisReportesActivity"
             android:exported="false"
-            android:label="@string/home_name"
+            android:label=" "
             android:parentActivityName="com.example.aspra_app.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -77,7 +87,7 @@
         <activity
             android:name="com.example.aspra_app.MultimediaActivity"
             android:exported="false"
-            android:label="@string/home_name"
+            android:label=""
             android:parentActivityName="com.example.aspra_app.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -85,7 +95,7 @@
         </activity>
         <activity
             android:name="com.example.aspra_app.ReporteExitosoActivity"
-            android:label="@string/reporte_name"
+            android:label=" "
             android:parentActivityName="com.example.aspra_app.ReportarActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -93,7 +103,7 @@
         </activity>
         <activity
             android:name="com.example.aspra_app.ReportarActivity"
-            android:label="@string/home_name"
+            android:label=""
             android:parentActivityName="com.example.aspra_app.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -101,7 +111,7 @@
         </activity>
         <activity
             android:name="com.example.aspra_app.RegistrarseActivity"
-            android:label="@string/login_name"
+            android:label=""
             android:parentActivityName="com.example.aspra_app.LoginActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -109,7 +119,7 @@
         </activity>
         <activity
             android:name="com.example.aspra_app.LoginActivity"
-            android:label="@string/home_name"
+            android:label=""
             android:parentActivityName="com.example.aspra_app.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -117,7 +127,7 @@
         </activity>
         <activity
             android:name="com.example.aspra_app.ContactoActivity"
-            android:label="@string/home_name"
+            android:label=""
             android:parentActivityName="com.example.aspra_app.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -128,11 +138,6 @@
             android:exported="true"
             android:label="ASPRA Movil"
             android:theme="@style/Theme.Transparent" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <provider

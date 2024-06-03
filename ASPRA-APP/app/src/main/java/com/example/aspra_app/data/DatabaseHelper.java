@@ -32,6 +32,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     "FOREIGN KEY(motivo) REFERENCES Motivos (id),\n" +
                     "FOREIGN KEY(usuario) REFERENCES Usuarios (id));";
 
+    private static final String ADD_VALUES_MOTIVOS =
+            "INSERT INTO Motivos (nombre) VALUES('Maltrato'),('Abandono'),('Otro');";
+
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
@@ -41,6 +44,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL(TABLE_CREATE_USUARIOS);
         db.execSQL(TABLE_CREATE_MOTIVOS);
         db.execSQL(TABLE_CREATE_REPORTES);
+        db.execSQL(ADD_VALUES_MOTIVOS);
     }
 
     @Override
@@ -51,5 +55,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL(TABLE_CREATE_USUARIOS);
         db.execSQL(TABLE_CREATE_MOTIVOS);
         db.execSQL(TABLE_CREATE_REPORTES);
+        db.execSQL(ADD_VALUES_MOTIVOS);
     }
 }

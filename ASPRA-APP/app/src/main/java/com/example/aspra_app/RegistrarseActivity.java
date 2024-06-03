@@ -58,6 +58,8 @@ public class RegistrarseActivity extends AppCompatActivity {
                 if (result != -1) {
                     // El usuario se ha registrado con éxito en la base de datos
                     Toast.makeText(RegistrarseActivity.this, "Registro aprobado!", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(this, LoginActivity.class);
+                    startActivity(intent);
                 } else {
                     // Ocurrió un error al registrar el usuario
                     Toast.makeText(RegistrarseActivity.this, "Ha ocurrido un problema", Toast.LENGTH_SHORT).show();
@@ -79,4 +81,8 @@ public class RegistrarseActivity extends AppCompatActivity {
         return email.matches(emailPattern);
     }
 
+    public void irMain(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }
