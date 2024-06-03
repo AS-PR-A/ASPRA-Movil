@@ -70,15 +70,6 @@
                 android:value="com.example.aspra_app.MainActivity" />
         </activity>
         <activity
-            android:name=".MultimediaActivity"
-            android:exported="false"
-            android:label=""
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.aspra_app.MainActivity" />
-        </activity>
-        <activity
             android:name=".ReporteExitosoActivity"
             android:label=" "
             android:parentActivityName=".ReportarActivity">
