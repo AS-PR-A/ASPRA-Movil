@@ -1,10 +1,7 @@
 package com.example.aspra_app;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,8 +10,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
-
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import com.example.aspra_app.data.ReporteDAO;
+import com.example.aspra_app.data.UserDAO;
+import com.example.aspra_app.models.Reporte;
 import com.example.aspra_app.data.DatabaseHelper;
+import com.example.aspra_app.models.Usuario;
 
 public class ReportarActivity extends AppCompatActivity {
 
@@ -22,48 +25,56 @@ public class ReportarActivity extends AppCompatActivity {
     Button button_reporte_enviar;
     Spinner spMotivo;
 
+    private ReporteDAO reporteDAO;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reportar);
 
         spMotivo = findViewById(R.id.spMotivo);
-
-        String[] Motivo = {"Maltrato", "Abandono", "Otro"};
-        ArrayAdapter<String> adaptador = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, Motivo);
-
+        String[] motivo = {"Maltrato", "Abandono", "Otro"};
+        ArrayAdapter<String> adaptador = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, motivo);
         spMotivo.setAdapter(adaptador);
 
         edtdireccion = findViewById(R.id.etDireccion);
         edtdescripcion = findViewById(R.id.etDescripcion);
-
         button_reporte_enviar = findViewById(R.id.button_reporte_enviar);
 
         final DatabaseHelper databaseHelper = new DatabaseHelper(getApplicationContext());
+        reporteDAO = new ReporteDAO(ReportarActivity.this);
 
         button_reporte_enviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                /* String motivo = spMotivo.getSelectedItem().toString();
-                databaseHelper.agregarReportes(edtdireccion.getText().toString(), motivo, edtdescripcion.getText().toString());*/
+                String motivo = spMotivo.getSelectedItem().toString();
+                String direccion = edtdireccion.getText().toString();
+                String descripcion = edtdescripcion.getText().toString();
+                String fecha = obtenerFechaActual();
+                String emailUsuario = LoginActivity.getUserLogged(ReportarActivity.this);
 
+                UserDAO userDAO = new UserDAO(ReportarActivity.this);
+                Usuario usuario = userDAO.getUser(emailUsuario);
+                int idMotivo = (spMotivo.getSelectedItemPosition()+1);
 
-                irReporteExitoso(ReportarActivity.this);
+                if (!motivo.isEmpty() && !direccion.isEmpty() && !descripcion.isEmpty()) {
+                    Reporte reporte = new Reporte(0, fecha, direccion, motivo, descripcion, emailUsuario);
+                    long result = reporteDAO.addReport(reporte,usuario,idMotivo);
+                    if (result != -1) {
+                        Intent intent = new Intent(ReportarActivity.this, ReporteExitosoActivity.class);
+                        startActivity(intent);
+                    } else {
+                        Toast.makeText(ReportarActivity.this, "Ha ocurrido un problema", Toast.LENGTH_SHORT).show();
+                    }
+                } else {
+                    Toast.makeText(ReportarActivity.this, "Los campos están vacíos", Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }
 
-    public void irReporteExitoso(Context context) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle("Confirmacion de Reporte");
-        builder.setMessage("Pulse Aceptar para confirmar su reporte");
-        builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                Intent intent = new Intent(context, ReporteExitosoActivity.class);
-                startActivity(intent);
-            }
-        });
-        builder.show();
+    private String obtenerFechaActual() {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+        return sdf.format(new Date());
     }
 }

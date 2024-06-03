@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#33B2CF</color>
     <color name="ic_logo_launcher_background">#A4C0CE</color>
-    <color name="primary">#006075</color>
-    <color name="secondary">#012736</color>
+    <color name="primary">#33b2cf</color>
+    <color name="secondary">#0B0545</color>
     <color name="white">#FFFFFFFF</color>
     <string name="Descripcion">Descripcion</string>
     <string name="Direccion">Direccion</string>
@@ -13,6 +14,7 @@
     <string name="confirmar">Confirmar</string>
     <string name="contacto_name">Contacto</string>
     <string name="editar">Editar</string>
+    <string name="eliminar_reporte">ELIMINAR REPORTE</string>
     <string name="home_name">Inicio</string>
     <string name="login_inicio">Ingresar</string>
     <string name="login_name">Inicio de Sesión</string>

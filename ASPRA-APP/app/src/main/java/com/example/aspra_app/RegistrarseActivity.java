@@ -37,34 +37,29 @@ public class RegistrarseActivity extends AppCompatActivity {
         buttonRegistrarse = findViewById(R.id.button_registrarse_confirmar);
 
         // Inicializar la instancia de UserDAO
-        userDAO = new UserDAO(this);
+        userDAO = new UserDAO(RegistrarseActivity.this);
 
         // Asignar un listener al botón de registro
         buttonRegistrarse.setOnClickListener(view -> {
             // Obtener los valores ingresados por el usuario
             String username = editTextUsername.getText().toString();
             String email = editTextEmail.getText().toString();
-            String phone = editTextPhone.getText().toString();
+            String teletono = editTextPhone.getText().toString();
             String password = editTextPassword.getText().toString();
             String confirmPassword = editTextConfirmPassword.getText().toString();
 
             // Verificar si las contraseñas coinciden
             if (password.equals(confirmPassword) && isValidEmail(email))  {
                 // Crear un nuevo objeto Usuario con los datos ingresados
-                Usuario usuario = new Usuario();
-                usuario.setNombre(username);
-                usuario.setEmail(email);
-                usuario.setPhone(phone);
-                usuario.setPass(password);
-
+                Usuario usuario = new Usuario(username,email,password,teletono);
                 // Abrir la base de datos y agregar el usuario
-                userDAO.open();
                 long result = userDAO.addUser(usuario);
-                userDAO.close();
 
                 if (result != -1) {
                     // El usuario se ha registrado con éxito en la base de datos
                     Toast.makeText(RegistrarseActivity.this, "Registro aprobado!", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(this, LoginActivity.class);
+                    startActivity(intent);
                 } else {
                     // Ocurrió un error al registrar el usuario
                     Toast.makeText(RegistrarseActivity.this, "Ha ocurrido un problema", Toast.LENGTH_SHORT).show();
@@ -86,4 +81,8 @@ public class RegistrarseActivity extends AppCompatActivity {
         return email.matches(emailPattern);
     }
 
+    public void irMain(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }

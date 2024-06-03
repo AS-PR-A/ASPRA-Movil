@@ -1,7 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\layout_activity_registrarse.xml.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\layout\\activity_registrarse.xml"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\layout_activity_bienvenida.xml.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\layout\\activity_bienvenida.xml"
     },
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\layout_activity_multimedia.xml.flat",
@@ -14,6 +22,10 @@
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\layout_activity_mi_cuenta.xml.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\layout\\activity_mi_cuenta.xml"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\font_barlow_normal.ttf.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\font\\barlow_normal.ttf"
     },
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxxhdpi_ic_logo_launcher_foreground.webp.flat",
@@ -32,6 +44,14 @@
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xhdpi\\ic_logo_launcher_foreground.webp"
     },
     {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_icono2.png.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\icono2.png"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\font_barlowthin.ttf.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\font\\barlowthin.ttf"
+    },
+    {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -44,24 +64,24 @@
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-anydpi-v26_ic_logo_launcher.xml.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-anydpi-v26\\ic_logo_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxhdpi_ic_logo_launcher_round.webp.flat",
@@ -72,6 +92,10 @@
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xhdpi\\ic_logo_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_correo.png.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\correo.png"
+    },
+    {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxxhdpi_ic_logo_launcher.webp.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xxxhdpi\\ic_logo_launcher.webp"
     },
@@ -80,24 +104,20 @@
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\layout_activity_editar_reporte.xml.flat",
-        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\layout\\activity_editar_reporte.xml"
-    },
-    {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\layout_activity_editar_cuenta.xml.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\layout\\activity_editar_cuenta.xml"
     },
     {
-        "merged": "com.example.aspra_app-merged_res-28:/layout_activity_mi_cuenta.xml.flat",
-        "source": "com.example.aspra_app-main-30:/layout/activity_mi_cuenta.xml"
-    },
-    {
-        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\layout_activity_editar_reporte.xml.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\layout\\activity_editar_reporte.xml"
     },
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxhdpi_ic_logo_launcher.webp.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xxhdpi\\ic_logo_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -106,6 +126,10 @@
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_borde_redondo.xml.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\borde_redondo.xml"
     },
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -120,10 +144,6 @@
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.aspra_app-merged_res-28:/layout_activity_main.xml.flat",
-        "source": "com.example.aspra_app-main-30:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\layout_activity_reportar.xml.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\layout\\activity_reportar.xml"
     },
@@ -132,8 +152,16 @@
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\layout\\activity_mis_reportes.xml"
     },
     {
-        "merged": "com.example.aspra_app-merged_res-28:/layout_activity_reporte.xml.flat",
-        "source": "com.example.aspra_app-main-30:/layout/activity_reporte.xml"
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\font_comfortaa.ttf.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\font\\comfortaa.ttf"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_fondo.png.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\fondo.png"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_aspra2.png.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\aspra2.png"
     },
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-hdpi_ic_logo_launcher_foreground.webp.flat",
@@ -152,24 +180,40 @@
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\aspra.png"
     },
     {
-        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxxhdpi_ic_logo_launcher_round.webp.flat",
-        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xxxhdpi\\ic_logo_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.aspra_app-merged_res-28:/layout_activity_editar_cuenta.xml.flat",
-        "source": "com.example.aspra_app-main-30:/layout/activity_editar_cuenta.xml"
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxxhdpi_ic_logo_launcher_round.webp.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xxxhdpi\\ic_logo_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_direccion.png.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\direccion.png"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_whatsapp.png.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\whatsapp.png"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_web.png.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\web.png"
     },
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.aspra_app-merged_res-28:/layout_activity_mis_reportes.xml.flat",
-        "source": "com.example.aspra_app-main-30:/layout/activity_mis_reportes.xml"
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_aspra1.png.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\aspra1.png"
     },
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -180,10 +224,6 @@
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\layout\\activity_contacto.xml"
     },
     {
-        "merged": "com.example.aspra_app-merged_res-28:/layout_activity_editar_reporte.xml.flat",
-        "source": "com.example.aspra_app-main-30:/layout/activity_editar_reporte.xml"
-    },
-    {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xhdpi_ic_logo_launcher_round.webp.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xhdpi\\ic_logo_launcher_round.webp"
     },
@@ -192,12 +232,28 @@
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_icono.png.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\icono.png"
     },
     {
+        "merged": "com.example.aspra_app-merged_res-28:/layout_activity_contacto.xml.flat",
+        "source": "com.example.aspra_app-main-30:/layout/activity_contacto.xml"
+    },
+    {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\layout_activity_reporte.xml.flat",
         "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\layout\\activity_reporte.xml"
+    },
+    {
+        "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\drawable_borde_imagen.xml.flat",
+        "source": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-main-30:\\drawable\\borde_imagen.xml"
     },
     {
         "merged": "C:\\Users\\proye\\.gradle\\daemon\\8.0\\com.example.aspra_app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
