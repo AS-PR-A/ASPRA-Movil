@@ -36,7 +36,7 @@
     <string name="av_duarte_quiros_2800">Av. Duarte Quirós 2800</string>
     <string name="aspraproteccionanimal_gmail_com">aspraproteccionanimal@gmail.com</string>
     <string name="_54_351_6110625">+54 351 6110625</string>
-    <string name="para_m_s_informaci_n_acced_a_nuestro_sitio_web">Para más información, accedé a nuestro sitio web:</string>
+    <string name="para_mas_informacion_accede_a_nuestro_sitio_web">Para más información, accedé a nuestro sitio web:</string>
     <string name="aspra_com_ar">ASPRA.com.ar</string>
     <string name="desea_cambiar_su_contrasena_editarcuenta">¿Desea cambiar su contraseña?</string>
     <string name="editar_cuenta">Editar Cuenta</string>
@@ -96,5 +96,6 @@
     <string name="motivo_reporte">Motivo</string>
     <string name="reporte_enviado_exitosamente">REPORTE ENVIADO EXITOSAMENTE!</string>
     <string name="muchas_gracias_por_colaborar_con_aspra_reporteexitoso">Muchas gracias por colaborar con ASPRA</string>
+    <string name="codigo_qr">Codigo_QR</string>
 
 </resources>
