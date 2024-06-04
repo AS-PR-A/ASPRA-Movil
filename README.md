@@ -14,16 +14,175 @@
 
 <br>
 
-## Integrantes  👩‍💻👨🏼‍💻
+<h1 align="center"> 
+  👩‍💻👨🏼‍💻 Integrantes 👩‍💻👨🏼‍💻
+</h1>
+<h3 align="center">Scrum Master</h3>
+    <dl>
+      <dd>
+        <table align="center">
+          <thead>
+            <tr>
+              <th>Nombre y Apellido</th>
+              <th>Comision</th>
+              <th>Usuario en GitHub</th>
+              <th>GitHub</th>
+              <th>Linkedin</th>
+              <th>Portfolio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> Juan Diego González Antoniazzi </td>
+              <td> 2 </td>
+              <td> JDGA1997 </td>
+              <td>
+                <a href="https://github.com/JDGA1997">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in/jdga1997/">
+                  <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="">
+                  <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139">
+                </a>
+              </td>
+            </tr>
+            <tr>
+        </table>
+      </dd>
+    </dl>
+  </dd>
+  <dd>
+<dl>
+<dl>
+    <h3 align="center">Developer Team</h3>
+    <dl>
+      <dd>
+        <table align="center">
+          <thead>
+            <tr>
+              <th>Nombre y Apellido</th>
+              <th>Comision</th>
+              <th>Usuario en GitHub</th>
+              <th>GitHub</th>
+              <th>Linkedin</th>
+              <th>Portfolio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> Axel Ezequiel Montivero </td>
+              <td> 2 </td>
+              <td> Ezmant </td>
+              <td>
+                <a href="https://github.com/Ezmant">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in/">
+                  <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="">
+                  <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Fabiana Jazmin Amato </td>
+              <td> 1 </td>
+              <td> AmatoJazmin </td>
+              <td>
+                <a href="https://github.com/AmatoJazmin">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in//">
+                  <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="">
+                  <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Nicolás Mattos </td>
+              <td> 2 </td>
+              <td> NicolasMattos03 </td>
+              <td>
+                <a href="https://github.com/NicolasMattos03">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in//">
+                  <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="">
+                  <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Melanie Reyes </td>
+              <td> 3 </td>
+              <td> MelanieR24 </td>
+              <td>
+                <a href="https://github.com/MelanieR24">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in//">
+                  <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="">
+                  <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Alejandro Moreno </td>
+              <td> 2 </td>
+              <td> MoCAlejandro </td>
+              <td>
+                <a href="https://github.com/MoCAlejandro">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in//">
+                  <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+                </a>
+              </td>
+              <td>
+                <a href="">
+                  <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139">
+                </a>
+              </td>
+            </tr>
+            <tr>
+          </tbody>
+        </table>
+      </dd>
+    </dl>
+  </dd>
+  <dd>
 
-| Nombre          | Apellido            | GitHub                                                | Comision |       Rol       |
-|-----------------|---------------------|-------------------------------------------------------|----------|-----------------|
-| Juan Diego      | González Antoniazzi | [JDGA1997](https://github.com/JDGA1997)               |   2      |  Scrum Master   |
-| Axel Ezequiel   | Montivero           | [Ezmant](https://github.com/Ezmant)                   |   2      |    Developer    |
-| Fabiana Jazmin  |  Amato              | [AmatoJazmin](https://github.com/AmatoJazmin)         |   1      |    Developer    |
-| Nicolás         | Mattos              | [NicolasMattos03](https://github.com/NicolasMattos03) |   2      |    Developer    |
-| Melanie         | Reyes               | [MelanieR24](https://github.com/MelanieR24)           |   3      |    Developer    |
-| Alejandro       |     Moreno          | [MoCAlejandro](https://github.com/MoCAlejandro)       |   2      |    Developer    |
 
 <br>
 
@@ -70,25 +229,25 @@
 
 ### [Wiki](https://github.com/JDGA1997/ASPRA-Movil/wiki)
 
-### [Diagrama de Caso de Uso]()
+### [Diagrama de Caso de Uso](https://github.com/AS-PR-A/ASPRA-Movil/blob/main/Documentacion/Diagrama%20de%20caso%20de%20uso%20ASPRA%20Movil(actualizado).pdf)
 
-### [Diagrama de Entidad-Relacion (DER)]()
+### [Diagrama de Entidad-Relacion (DER)](https://github.com/AS-PR-A/ASPRA-Movil/blob/main/Documentacion/DER%20ASPRA%20movil(actualizado).pdf)
 
-### [Diagrama de Clases]()
+### [Diagrama de Clases](https://github.com/AS-PR-A/ASPRA-Movil/blob/main/Documentacion/ASPRA%20Movil%20Diagrama%20de%20Clases(actualizado).pdf)
 
-### [Modelo Relacional]()
+### [Modelo Relacional](https://github.com/AS-PR-A/ASPRA-Movil/blob/main/Documentacion/Modelo%20EER.png)
 
-### [Script de BBDD]()
+### [Script de BBDD](https://github.com/AS-PR-A/ASPRA-Movil/blob/main/Documentacion/Script.sql)
 
-### [Mapa de Pantallas]()
+### [Mapa de Pantallas](https://github.com/AS-PR-A/ASPRA-Movil/blob/main/Documentacion/Mapa%20de%20pantallas%20ASPRA%20Movil%20(actualizado).pdf)
 
 ### [Tablero Kanban](https://github.com/orgs/AS-PR-A/projects/13/views/1)
 
-### [Milestone](https://github.com/AS-PR-A/ASPRA-Movil/milestones)
+### [Milestone](https://github.com/AS-PR-A/ASPRA-Movil/milestones?state=closed)
 
-### [Issues](https://github.com/AS-PR-A/ASPRA-Movil/issues?q=)
+### [Sprint 2](https://github.com/AS-PR-A/ASPRA-Movil/milestone/4?closed=1)
 
-### [Sprint 2](https://github.com/AS-PR-A/ASPRA-Movil/milestone/4)
+### [Issues](https://github.com/AS-PR-A/ASPRA-Movil/issues?q=is%3Aclosed)
 
 ### [Testing](https://github.com/AS-PR-A/ASPRA-Movil/tree/Sprint2-JDGA1997/Testing)
 
