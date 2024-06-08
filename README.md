@@ -252,4 +252,8 @@
 ### [Testing](https://github.com/AS-PR-A/ASPRA-Movil/tree/Sprint2-JDGA1997/Testing)
 
 ### [ASPRA WEB](https://github.com/AS-PR-A/ASPRA-Web)
+
+### [Elevator Pitch](https://youtu.be/w3gHZfcjmjA)
+![imagen](https://github.com/AS-PR-A/ASPRA-Movil/assets/105946879/9da899cd-5e10-4808-b8dd-8dfb4c9ccf73)
+
 </div>
